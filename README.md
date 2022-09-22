@@ -14,3 +14,4 @@ Rust exercise from idea, books and other topics
 - REF -> Reference
 - RFC -> Official RFC documents
 - www -> The internet
+- STDCKBK -> Rust Standard Library CookBook
