@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 tesseract = "0.10.1"
 image = "0.23.6"
-imageproc = { version = "0.22.0" , path = "imageproc" }
+#imageproc = { version = "0.22.0" , path = "imageproc" }
+imageproc "0.22.0"
 #palette = "0.6.0"
 histo_fp = "*"
