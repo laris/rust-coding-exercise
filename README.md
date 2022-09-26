@@ -15,3 +15,5 @@ Rust exercise from idea, books and other topics
 - RFC -> Official RFC documents
 - www -> The internet
 - STDCKBK -> Rust Standard Library CookBook
+- AB -> Async Book https://rust-lang.github.io/async-book/
+- 
