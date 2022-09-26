@@ -20,4 +20,5 @@ serde_json = "1"
 #serde_json = {version = "1", default-features = false, features = ["alloc"]}
 base64 = "*"
 #image-base64 = { version = "*", git = "https://github.com/iwatakeshi/image-base64-rs" }
-image-base64 = { version = "*", path = "image-base64-rs" }
+#image-base64 = { version = "*", path = "image-base64-rs" }
+image-base64 = "*"
