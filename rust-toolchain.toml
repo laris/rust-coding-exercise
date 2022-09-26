@@ -1,0 +1,11 @@
+# https://rust-lang.github.io/rustup/overrides.html
+[toolchain]
+#channel = "stable"
+#channel = "beta"
+channel = "nightly"
+#channel = "nightly-2022-09-18"
+#channel = "nightly-x86_64-apple-darwin"
+# other properties
+#components = [ "rustfmt", "rustc-dev" ]
+#targets = [ "wasm32-unknown-unknown", "thumbv2-none-eabi" ]
+#profile = "minimal"
