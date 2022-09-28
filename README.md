@@ -12,9 +12,10 @@ Rust exercise from idea, books and other topics
 - NOM -> [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - REF -> [The Rust Reference](https://doc.rust-lang.org/reference/)
 - RFC -> [The Rust RFC Book](https://rust-lang.github.io/rfcs/) 
-  - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
 - STDCKBK -> [Rust Standard Library Cookbook | Packt](https://www.packtpub.com/product/rust-standard-library-cookbook/9781788623926)
 - AB -> [Async Book](https://rust-lang.github.io/async-book/)
+  - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
+  - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
 - CK -> [Rust CookBook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - www -> The internet
  
@@ -44,7 +45,9 @@ Rust exercise from idea, books and other topics
 - [Folyd - Pin](https://folyd.com/blog/)
 - [Pramode - Embedded](https://pramode.in/)
   - [Using unsafe tricks to examine Rust data structure layout](https://pramode.in/2016/09/13/using-unsafe-tricks-in-rust/)
-
+- [withoutboats - Without boats, dreams dry up](https://without.boats/tags/)
+- [阿愁](https://night-cruise.github.io/archives/)
+  - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
 
 # Video training
 - [Rust编程语言入门教程（Rust语言/Rust权威指南配套）【已完结】](https://www.bilibili.com/video/BV1hp4y1k7SV)
