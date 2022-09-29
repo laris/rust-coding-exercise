@@ -1,5 +1,6 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
+#![feature(future_join)]
 
 use std::future::Future;
 
@@ -51,6 +52,8 @@ async fn blocks() {
     let future_two = async { println!("{:?}", s); };
 
     // futures::future::join(future_one, future_two); // need run in cargo with futures crate
+    std::future::join!(future_one, future_two); // macro join!() can join multiple futures
+    // https://doc.rust-lang.org/std/future/macro.join.html
 }
 
 fn main() {
