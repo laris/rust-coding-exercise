@@ -1,0 +1,9 @@
+[package]
+name = "async_in_rust_31_async_await_move"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
