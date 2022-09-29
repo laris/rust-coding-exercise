@@ -7,5 +7,5 @@ fname_ext=$1
 fname=${fname_ext%.*}
 
 rm -rf ./$fname
-rustc $fname_ext
+rustc --edition 2021 $fname_ext
 ./$fname
