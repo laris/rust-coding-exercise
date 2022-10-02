@@ -4,7 +4,7 @@ primary feature of a generator is that
 it can be suspended during execution to be resumed at a later date.
 Generators use the yield keyword to "return", and then
 the caller can resume a generator to resume execution just after the yield keyword.
-模型：<[noin]resume-work-[in->yield(end)]->resume[out]>-<>-...<end>
+模型：<[noin/ResumeTy]resume-work-[in->yield(end)]->resume[out/ret]>-<>-...<end>
 1. 生成器，目标是，在函数整个过程中，生成断点，断点有暂停、恢复两个方法，暂停可产出数据，终止有条件和状态
 2. 生成器，恢复无入有出，暂停有入无出
 3. 断点产出的值的类型在第一个断点时确定，产出的值，由间隔的过程决定
