@@ -4,7 +4,7 @@ primary feature of a generator is that
 it can be suspended during execution to be resumed at a later date.
 Generators use the yield keyword to "return", and then
 the caller can resume a generator to resume execution just after the yield keyword.
-模型：<resume-work-[input->yield(end)]->output>-<>-...<end>
+模型：<[noin]resume-work-[in->yield(end)]->resume[out]>-<>-...<end>
 1. 生成器，目标是，在函数整个过程中，生成断点，断点有暂停、恢复两个方法，暂停可产出数据，终止有条件和状态
 2. 生成器，恢复无入有出，暂停有入无出
 3. 断点产出的值的类型在第一个断点时确定，产出的值，由间隔的过程决定
@@ -12,6 +12,73 @@ the caller can resume a generator to resume execution just after the yield keywo
 5. 如果生成器特殊内化，去掉头尾，间隔过程一致，拥有初始化的自身数据，那么产出可由内部控制，结束条件也由内部控制，转化为一个内部逻辑决定生成值的生成器
 6. 内化的生成器，也是一个自我迭代器，初始化数据+终止条件决定数据产生的值
 7. 生成器可以看成一个，切割过程的方法，把过程分割成不同状态的分割连接器，yield分割和传递产出，resume是clk激励信号
+
+- Multivibrator https://en.wikipedia.org/wiki/Multivibrator
+Monostable, Bistable, flip-flop
+
+- Duff's device https://en.wikipedia.org/wiki/Duff%27s_device
+loop unrolling by interleaving two syntactic constructs of C
+do-while loop and switch statement
+
+- Coroutines https://en.wikipedia.org/wiki/Coroutine
+- Coroutines are computer program components that
+generalize subroutines for non-preemptive multitasking,
+by allowing execution to be suspended and resumed.
+Coroutines are well-suited for implementing familiar program components such as
+cooperative tasks, exceptions, event loops, iterators, infinite lists and pipes.
+
+- Generator https://en.wikipedia.org/wiki/Generator_(computer_programming)
+In computer science, a generator is a routine that can be used to control the iteration behaviour of a loop.
+All generators are also iterators.[1]
+A generator is very similar to a function that returns an array,
+in that a generator has parameters, can be called, and generates a sequence of values.
+However, instead of building an array containing all the values and returning them all at once,
+a generator yields the values one at a time,
+which requires less memory and allows the caller to get started processing the first few values immediately.
+In short, a generator looks like a function but behaves like an iterator.
+
+Generators can be implemented in terms of more expressive control flow constructs,
+such as coroutines or first-class continuations.[2] Generators, also known as semicoroutines,[3]
+are a special case of (and weaker than) coroutines,
+in that they always yield control back to the caller (when passing a value back),
+rather than specifying a coroutine to jump to; see comparison of coroutines with generators.
+
+https://en.wikipedia.org/wiki/Coroutine#Generators
+Generators[edit]
+Main article: Generator (computer programming)
+Generators, also known as semicoroutines,[5] are a subset of coroutines.
+Specifically, while both can yield multiple times,
+suspending their execution and allowing re-entry at multiple entry points,
+they differ in coroutines' ability to control where execution continues immediately after they yield,
+while generators cannot, instead transferring control back to the generator's caller.[6]
+That is, since generators are primarily used to simplify the writing of iterators,
+the yield statement in a generator does not specify a coroutine to jump to,
+but rather passes a value back to a parent routine.
+
+However, it is still possible to implement coroutines on top of a generator facility,
+with the aid of a top-level dispatcher routine (a trampoline, essentially)
+that passes control explicitly to child generators identified by tokens passed back from the generators:
+
+- Iterator https://en.wikipedia.org/wiki/Iterator
+an iterator is an object that enables a programmer to traverse a container, particularly lists.[1][2][3]
+An iterator performs traversal and also gives access to data elements in a container,
+but does not itself perform iteration
+(i.e., not without some significant liberty taken with that concept or with trivial use of the terminology)
+
+Generators
+One way of implementing iterators is to use a restricted form of coroutine, known as a generator.
+By contrast with a subroutine, a generator coroutine can yield values to its caller multiple times,
+instead of returning just once. Most iterators are naturally expressible as generators,
+but because generators preserve their local state between invocations,
+they're particularly well-suited for complicated, stateful iterators, such as tree traversers.
+There are subtle differences and distinctions in the use of the terms "generator" and "iterator",
+which vary between authors and languages.[5] In Python, a generator is an iterator constructor:
+a function that returns an iterator. An example of a Python generator returning an iterator
+for the Fibonacci numbers using Python's yield statement follows:
+
+Coroutine -[subset/special/weaker case CR]- Generator [Semi-Coroutine] -[impl]- (1)coroutine (2)continuation
+Coroutine ~= Generator + Dispatcher routine [trampoline, indirect jump vectors
+Loop unrolling/unwinding - Duff's device - switch - branch/jmp/dispatch/lookup table - indirect jump vec
 */
 
 #![allow(unused_imports)]
