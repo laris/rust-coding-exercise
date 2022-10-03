@@ -51,7 +51,21 @@ Rust exercise from idea, books and other topics
 - [withoutboats - Without boats, dreams dry up](https://without.boats/tags/)
 - [阿愁](https://night-cruise.github.io/archives/)
   - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
-  - [Rusts :: steven的个人博客](https://stevenbai.top/rust/)
+- [Rusts :: steven的个人博客](https://stevenbai.top/rust/)
+- [Writing an OS in Rust](https://os.phil-opp.com/)
+- [Aaron Turon](https://aturon.github.io/blog/archive/)
+- [Tyler Mandry](https://tmandry.gitlab.io/blog/)
+- [lowering async await in rust - wiki](https://wiki.cont.run/lowering-async-await-in-rust/)
+- [Rust async/await 内部是怎么实现的 - 人间指南](http://liubin.org/blog/2021/04/15/async-slash-await-internal/)
+- [blag.nemo157.com - Inside Rust's Async Transform](https://web.archive.org/web/20220826224254/https://blag.nemo157.com/2018/12/09/inside-rusts-async-transform.html)
+- [Understanding Rust futures by going way too deep](https://fasterthanli.me/articles/understanding-rust-futures-by-going-way-too-deep)
+- [Debugging async generator errors in Rust: Staying sane when Rust errors get worse than C++ errors | Meltware](https://meltware.com/2020/10/21/rust-async-nonsense.html)
+- [Nick Fitzgerald](https://fitzgeraldnick.com/)
+  - [Async Stack Traces in Rust](https://fitzgeraldnick.com/2019/08/27/async-stacks-in-rust.html)
+- [Inside Rust's Async Transform | Hacker News](https://news.ycombinator.com/item?id=18641796)
+
+## Embedded
+- [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
 
 # Video training
 - [Rust编程语言入门教程（Rust语言/Rust权威指南配套）【已完结】](https://www.bilibili.com/video/BV1hp4y1k7SV)
