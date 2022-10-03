@@ -16,6 +16,8 @@ Rust exercise from idea, books and other topics
 - AB -> [Async Book](https://rust-lang.github.io/async-book/)
   - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
   - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
+  - [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html)
+  - [The Node Experiment - Exploring Async Basics with Rust](https://cfsamson.github.io/book-exploring-async-basics/)
 - CK -> [Rust CookBook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - www -> The internet
  
@@ -45,9 +47,11 @@ Rust exercise from idea, books and other topics
 - [Folyd - Pin](https://folyd.com/blog/)
 - [Pramode - Embedded](https://pramode.in/)
   - [Using unsafe tricks to examine Rust data structure layout](https://pramode.in/2016/09/13/using-unsafe-tricks-in-rust/)
+- [withoutblogs](https://boats.gitlab.io/blog/)
 - [withoutboats - Without boats, dreams dry up](https://without.boats/tags/)
 - [阿愁](https://night-cruise.github.io/archives/)
   - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
+  - [Rusts :: steven的个人博客](https://stevenbai.top/rust/)
 
 # Video training
 - [Rust编程语言入门教程（Rust语言/Rust权威指南配套）【已完结】](https://www.bilibili.com/video/BV1hp4y1k7SV)
