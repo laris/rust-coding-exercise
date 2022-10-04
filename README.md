@@ -118,7 +118,7 @@ Rust exercise from idea, books and other topics
 - [Rustのasync/awaitを使ったecho serverの実装 - 睡分不足](https://mmi.hatenablog.com/entry/2019/09/29/203156)
 - [Rust Magazine](https://github.com/RustMagazine)
   - [RustChinaConf2020 精选 | Rust 异步与并发 - Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_1/rust_async.html)
-
+- [Paul E. McKenney's Journal — LiveJournal](https://paulmck.livejournal.com/tag/rust)
 
 
 ## Embedded
