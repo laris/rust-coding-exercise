@@ -16,6 +16,7 @@ Rust exercise from idea, books and other topics
 - AB -> Async Book
   - [Async Book](https://rust-lang.github.io/async-book/)
     - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
+    - [《Rust 异步编程》 | Rust 技术论坛](https://learnku.com/docs/async-book/2018)
   - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
   - [The Node Experiment - Exploring Async Basics with Rust](https://cfsamson.github.io/book-exploring-async-basics/)
     - [cfsamson/book-exploring-async-basics: The repository for the book "The Node Experiment - Exploring Async Basics with Rust"](https://github.com/cfsamson/book-exploring-async-basics)
@@ -30,6 +31,8 @@ Rust exercise from idea, books and other topics
   - [Epoll, Kqueue and IOCP Explained with Rust](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/)
     - [cfsamson/book-exploring-epoll-kqueue-iocp: Rendered version is found at: https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/](https://github.com/cfsamson/book-exploring-epoll-kqueue-iocp)
   - [Since when did Stjepang leave Rust? | Hacker News](https://news.ycombinator.com/item?id=25521669)
+    - [However, one worrying thing is that Stjepan deleted his blog including the post on why he made smol.](https://github.com/azdevs/desert-rustaceans/blob/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383/content/2020-10-28.md#smol)
+      - [azdevs/desert-rustaceans at 2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383](https://github.com/azdevs/desert-rustaceans/tree/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383)
     - [async collections in github](https://github.com/stjepang)
     - [Cached version of "Build your own executor"? : rust](https://www.reddit.com/r/rust/comments/v7tq0o/cached_version_of_build_your_own_executor/)
       - [Icarium-Lifestealer](https://www.reddit.com/user/Icarium-Lifestealer/)
@@ -37,6 +40,7 @@ Rust exercise from idea, books and other topics
         - [从头实现Rust异步执行器 :: steven的个人博客](https://stevenbai.top/rust/build_your_own_executor/)
       - [2020-01-25-build-your-own-block-on.md](./stjepang.github.io_2020.02.22_09.50.12utc/2020-01-25-build-your-own-block-on.md)
         - [从头实现Rust异步block_on :: steven的个人博客](https://stevenbai.top/rust/build_your_own_block_on/)
+        - https://github.com/keithnoguchi/books-rs/tree/8974b953c860c63b576ebe67715fd57150aeb341/stjepang
       - [A few more blogposts](https://archive.ph/stjepang.github.io) on archive.is
       - [Niko's post is still on archive.org](https://web.archive.org/web/20210212110330/https://smallcultfollowing.com/babysteps/blog/2020/07/09/async-interview-8-stjepan-glavina/)
         - [async-std - Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
@@ -78,6 +82,8 @@ Rust exercise from idea, books and other topics
 - [Rust 语言圣经 - Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
 - [Rust exercism.org](https://exercism.org/tracks/rust/concepts/functions)
 - [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
+- [Jekahome/Incubator-rust-example: Learn Rust](https://github.com/Jekahome/Incubator-rust-example/tree/main)
+- [Desert Rust](https://rust.azdevs.org/)
 
 # Rust tech blogs
 - [Folyd - Pin](https://folyd.com/blog/)
@@ -99,6 +105,21 @@ Rust exercise from idea, books and other topics
 - [Nick Fitzgerald](https://fitzgeraldnick.com/)
   - [Async Stack Traces in Rust](https://fitzgeraldnick.com/2019/08/27/async-stacks-in-rust.html)
 - [Inside Rust's Async Transform | Hacker News](https://news.ycombinator.com/item?id=18641796)
+- [cutepig123.github.io](https://cutepig123.github.io//categories/)
+- [pingcap/talent-plan: open source training courses about distributed database and distributed systems](https://github.com/pingcap/talent-plan)
+- [Sullivan12138/PingCAP_talent_plan_online](https://github.com/Sullivan12138/PingCAP_talent_plan_online)
+- [chirpyli/my-rust: personal rust study notes](https://github.com/chirpyli/my-rust/tree/master)
+- [Weihang Lo](https://weihanglo.tw/)
+  - [weihanglo/slides: Slides of Talks I gave](https://weihanglo.tw/slides/)
+  - [weihanglo/slides: Slides of Talks I gave](https://github.com/weihanglo/slides)
+- [Explained: How does async work in Rust? | by Bastian Gruber | Level Up Coding](https://levelup.gitconnected.com/explained-how-does-async-work-in-rust-c406f411b2e2)
+- [async_hsm - Rust](https://docs.rs/async-hsm/latest/async_hsm/)
+- [Async Rust section 2.2 & 2.3 explanation diagram : rust](https://www.reddit.com/r/rust/comments/pjusjn/async_rust_section_22_23_explanation_diagram/)
+- [Rustのasync/awaitを使ったecho serverの実装 - 睡分不足](https://mmi.hatenablog.com/entry/2019/09/29/203156)
+- [Rust Magazine](https://github.com/RustMagazine)
+  - [RustChinaConf2020 精选 | Rust 异步与并发 - Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_1/rust_async.html)
+
+
 
 ## Embedded
 - [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
