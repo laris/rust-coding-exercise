@@ -13,11 +13,44 @@ Rust exercise from idea, books and other topics
 - REF -> [The Rust Reference](https://doc.rust-lang.org/reference/)
 - RFC -> [The Rust RFC Book](https://rust-lang.github.io/rfcs/) 
 - STDCKBK -> [Rust Standard Library Cookbook | Packt](https://www.packtpub.com/product/rust-standard-library-cookbook/9781788623926)
-- AB -> [Async Book](https://rust-lang.github.io/async-book/)
-  - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
+- AB -> Async Book
+  - [Async Book](https://rust-lang.github.io/async-book/)
+    - [Rust 中的异步编程](https://huangjj27.github.io/async-book/)
   - [async in rust - night-cruise](https://night-cruise.github.io/async-rust/Introduction.html)
-  - [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html)
   - [The Node Experiment - Exploring Async Basics with Rust](https://cfsamson.github.io/book-exploring-async-basics/)
+    - [cfsamson/book-exploring-async-basics: The repository for the book "The Node Experiment - Exploring Async Basics with Rust"](https://github.com/cfsamson/book-exploring-async-basics)
+    - [译：异步编程基础 - 知乎](https://zhuanlan.zhihu.com/c_1244389242803384320)
+  - [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/introduction.html)
+    - [cfsamson/books-futures-explained: The repository for the book Futures Explained in 200 lines of Rust](https://github.com/cfsamson/books-futures-explained)
+    - [200行代码讲透Rust Futures :: steven的个人博客](https://stevenbai.top/rust/futures_explained_in_200_lines_of_rust/)
+    - [200行代码讲透Rust Futures-有bug版本 :: steven的个人博客](https://stevenbai.top/rust/futures_explained_in_200_lines_of_rust_with_error_version/)
+    - [200行代码讲透Rust Futures的问题 :: steven的个人博客](https://stevenbai.top/rust/futures_explained_in_200_lines_of_rust2/)
+  - [Green Threads Explained in 200 Lines of Rust](https://cfsamson.gitbook.io/green-threads-explained-in-200-lines-of-rust/)
+    - [cfsamson/book-green-threads-explained: Repository for the Green Threads Explained Book](https://github.com/cfsamson/book-green-threads-explained)
+  - [Epoll, Kqueue and IOCP Explained with Rust](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/)
+    - [cfsamson/book-exploring-epoll-kqueue-iocp: Rendered version is found at: https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/](https://github.com/cfsamson/book-exploring-epoll-kqueue-iocp)
+  - [Since when did Stjepang leave Rust? | Hacker News](https://news.ycombinator.com/item?id=25521669)
+    - [async collections in github](https://github.com/stjepang)
+    - [Cached version of "Build your own executor"? : rust](https://www.reddit.com/r/rust/comments/v7tq0o/cached_version_of_build_your_own_executor/)
+      - [Icarium-Lifestealer](https://www.reddit.com/user/Icarium-Lifestealer/)
+      - [Build your own executor](https://archive.ph/n1PK9) on archive.is
+      - [A few more blogposts](https://archive.ph/stjepang.github.io) on archive.is
+      - [Niko's post is still on archive.org](https://web.archive.org/web/20210212110330/https://smallcultfollowing.com/babysteps/blog/2020/07/09/async-interview-8-stjepan-glavina/)
+        - [async-std - Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
+        - [Async Interviews - announcements - The Rust Programming Language Forum](https://users.rust-lang.org/t/async-interviews/35167)
+        - [Why I’m building a new async runtime | Stjepan’s blog](https://archive.ph/7l6vu)
+      - [Archive of the underlying repository](https://archive.softwareheritage.org/browse/origin/directory/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4) which includes the markdown of all six blog posts.
+      - [2017-08-13-designing-a-channel.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2017-08-13-designing-a-channel.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - [2019-01-29-lock-free-rust-crossbeam-in-2019.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - [2019-03-02-new-channels.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2019-03-02-new-channels.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - [2019-12-04-blocking-inside-async-code.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2019-12-04-blocking-inside-async-code.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - [2020-01-25-build-your-own-block-on.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2020-01-25-build-your-own-block-on.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - [2020-01-31-build-your-own-executor.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2020-01-31-build-your-own-executor.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
+      - I don't know if any of [his other repositories](https://archive.softwareheritage.org/browse/search/?q=https%3A%2F%2Fgithub.com%2Fstjepang%2F&with_visit=true&with_content=true) has any original content that hasn't been moved to an organization.
+  - [Async in zCore · rcore-os/zCore Wiki](https://github.com/rcore-os/zCore/wiki/Async-in-zCore)
+  - [Let's talk about this async](https://conradludgate.com/posts/async)
+    - [conradludgate/what-the-async: Simple async reactor and executor for rust](https://github.com/conradludgate/what-the-async)
+  - 
 - CK -> [Rust CookBook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - www -> The internet
  
