@@ -119,6 +119,11 @@ Rust exercise from idea, books and other topics
 - [Rust Magazine](https://github.com/RustMagazine)
   - [RustChinaConf2020 精选 | Rust 异步与并发 - Rust精选](https://rustmagazine.github.io/rust_magazine_2021/chapter_1/rust_async.html)
 - [Paul E. McKenney's Journal — LiveJournal](https://paulmck.livejournal.com/tag/rust)
+- [Concurrency is not parallelism - Rob Pike](https://go.dev/blog/waza-talk) [slides](https://go.dev/talks/2012/waza.slide)
+- [future explained(0) - Hexo](https://hsqstephenzhang.github.io/2021/11/24/rust/futures/future-explained0/)
+  - [future explained(1) - Hexo](https://hsqstephenzhang.github.io/2021/11/24/rust/futures/future-explained1/)
+  - [future explained(2) - Hexo](https://hsqstephenzhang.github.io/2021/11/24/rust/futures/future-explained2/)
+  - [future explained(3) - Hexo](https://hsqstephenzhang.github.io/2021/11/24/rust/futures/future-explained3/)
 
 
 ## Embedded
