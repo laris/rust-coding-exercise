@@ -84,6 +84,7 @@ Rust exercise from idea, books and other topics
 - [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 - [Jekahome/Incubator-rust-example: Learn Rust](https://github.com/Jekahome/Incubator-rust-example/tree/main)
 - [Desert Rust](https://rust.azdevs.org/)
+- [rust-boom/rust-boom: rust awesome（资源）. 💥](https://github.com/rust-boom/rust-boom)
 
 # Rust tech blogs
 - [Folyd - Pin](https://folyd.com/blog/)
@@ -220,6 +221,7 @@ Rust exercise from idea, books and other topics
     - [Rust 异步编程 |Vol.33](https://www.bilibili.com/video/BV1Jb4y1x7Z8)
   - [Rust 培养提高计划](https://space.bilibili.com/275673537/channel/seriesdetail?sid=488491)
 - [原子之音的个人空间](https://space.bilibili.com/437860379)
+  - 偶尔看看，但是思路不流畅，不推荐
   - [Rust推荐学习路线](https://www.bilibili.com/video/BV1tB4y1H7mB)
   - [Rust训练营](https://space.bilibili.com/437860379/channel/seriesdetail?sid=2013702)
     - [Rust训练营:迭代器与辅助函数](https://www.bilibili.com/video/BV1DR4y1W7QK?vd_source=91df0efcd22561d81b3a3a1b9f1299d0)
@@ -247,7 +249,25 @@ Rust exercise from idea, books and other topics
 - [蛋黄天然呆的个人空间](https://space.bilibili.com/7703658)
   - [RUST编程入门篇](https://space.bilibili.com/7703658/channel/seriesdetail?sid=1071813)
   - [RUST虐菜篇](https://space.bilibili.com/7703658/channel/seriesdetail?sid=1071812&ctype=0)
-  - [RUST编程回顾与展望 | 乘风破浪不断前行](https://www.bilibili.com/video/BV1Va4y1e7g2?vd_source=91df0efcd22561d81b3a3a1b9f1299d0)
+  - [RUST生产篇](https://space.bilibili.com/7703658/video?tid=0&page=1&keyword=&order=pubdate)
+    - [RUST编程回顾与展望 | 乘风破浪不断前行](https://www.bilibili.com/video/BV1Va4y1e7g2)
+    - [RUST生产篇01 | 从并发的开始到结束[线程的全流程]](https://www.bilibili.com/video/BV1ti4y1G7D3)
+    - [RUST生产篇02 | 从多发单收通道谈线程通信[异步通信]](https://www.bilibili.com/video/BV1dZ4y1M7gD)
+    - [RUST生产篇03 | 在同步通道中收发消息设计思路[同步通信]](https://www.bilibili.com/video/BV1VK411H74j)
+    - [RUST生产篇04 | 无可避免的数据共享[内存共享式并行计算]](https://www.bilibili.com/video/BV1kA411e7ud)
+    - [RUST生产篇05 | 加入一些顺序的内容[线程顺序控制]](https://www.bilibili.com/video/BV1iK411J799)
+    - [RUST生产篇06 | 异步编程初探[#1]](https://www.bilibili.com/video/BV1et4y1X78y)
+    - [RUST生产篇07 | 异步编程关键字解析[#2]](https://www.bilibili.com/video/BV19f4y1X7Vj)
+    - [RUST生产篇08 | 谈谈异步参数传递[#2]](https://www.bilibili.com/video/BV1Kt4y1Q75x)
+    - [RUST生产篇09 | 超优的异步库一键合集[勉强算是精致版本吧]](https://www.bilibili.com/video/BV1eC4y1t7or)
+    - [RUST生产篇10 | TCP服务端客户端初探[勉强算是精致版本吧]](https://www.bilibili.com/video/BV1Xt4y1S7Zv)
+    - [RUST生产篇11 | 用TCP做辣鸡HTTP服务器[勉强算是精致版本吧]](https://www.bilibili.com/video/BV1pv411k7hX)
+    - [RUST生产篇12 | UDP单点聊天室[勉强算是精致版本吧]](https://www.bilibili.com/video/BV1pf4y1B7qR)
+  - [RUST WASM](https://space.bilibili.com/7703658/video?tid=0&page=1&keyword=&order=pubdate)
+    - [#00 谈谈webassembly吧](https://www.bilibili.com/video/BV1bA411G7ra)
+    - [#01 搭建一个wasm环境呗](https://www.bilibili.com/video/BV1A54y1L7mV)
+    - [#02 再来一个通用wasm部署方案](https://www.bilibili.com/video/BV1F64y1k7R4)
+    - [#03 wasm当然是可以操作网页的](https://www.bilibili.com/video/BV1VK4y1R7t8)
 
 - [forever-me的个人空间](https://space.bilibili.com/286590401)
   - [Rust基础编程(Part1)](https://space.bilibili.com/286590401/channel/collectiondetail?sid=662816)
@@ -262,3 +282,9 @@ Rust exercise from idea, books and other topics
 
 - [cs128 rust编程 lec1](https://www.bilibili.com/medialist/play/ml1546883005/BV13r4y1q7YJ?oid=767491972&otype=2)
 - [Rust官方教程解读](https://www.bilibili.com/video/BV1M3411G7ma?vd_source=91df0efcd22561d81b3a3a1b9f1299d0)
+
+- [ScathonLin的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/14343696/video)
+  - [从零开始用Rust实现“类”nginx](https://www.bilibili.com/video/BV153411x7mx)
+  - [练为战！Rust编程练习网站安利~~](https://www.bilibili.com/video/BV1A64y1v7yH)
+  - [[Rust]用rust实现数据结构-队列](https://www.bilibili.com/video/BV1Nf4y1b7Qb)
+  - [[Rust]用rust实现数据结构-栈](https://www.bilibili.com/video/BV1rB4y1K7E2)
