@@ -288,3 +288,7 @@ Rust exercise from idea, books and other topics
   - [练为战！Rust编程练习网站安利~~](https://www.bilibili.com/video/BV1A64y1v7yH)
   - [[Rust]用rust实现数据结构-队列](https://www.bilibili.com/video/BV1Nf4y1b7Qb)
   - [[Rust]用rust实现数据结构-栈](https://www.bilibili.com/video/BV1rB4y1K7E2)
+
+- [软件工艺师的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/361469957)
+  - [Rust Async 异步编程 简易教程](https://www.bilibili.com/video/BV16r4y187P4)
+  - [Rust Async 异步编程（完结）](https://www.bilibili.com/video/BV1Ki4y1C7gj)
