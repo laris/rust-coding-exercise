@@ -1,0 +1,17 @@
+[package]
+name = "bk_ch20_prj_webserver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "lis2001"
+path = "src/lis2001.rs"
+
+[[bin]]
+name = "lis2002"
+path = "src/lis2002.rs"
