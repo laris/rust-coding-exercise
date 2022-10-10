@@ -15,3 +15,23 @@ path = "src/lis2001.rs"
 [[bin]]
 name = "lis2002"
 path = "src/lis2002.rs"
+
+[[bin]]
+name = "lis2003"
+path = "src/lis2003.rs"
+
+[[bin]]
+name = "lis2005"
+path = "src/lis2005.rs"
+
+[[bin]]
+name = "lis2006"
+path = "src/lis2006.rs"
+
+[[bin]]
+name = "lis2007"
+path = "src/lis2007.rs"
+
+[[bin]]
+name = "lis2009"
+path = "src/lis2009.rs"
