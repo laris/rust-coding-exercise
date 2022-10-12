@@ -30,10 +30,10 @@ Rust exercise from idea, books and other topics
     - [cfsamson/book-green-threads-explained: Repository for the Green Threads Explained Book](https://github.com/cfsamson/book-green-threads-explained)
   - [Epoll, Kqueue and IOCP Explained with Rust](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/)
     - [cfsamson/book-exploring-epoll-kqueue-iocp: Rendered version is found at: https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/](https://github.com/cfsamson/book-exploring-epoll-kqueue-iocp)
-  - [Since when did Stjepang leave Rust? | Hacker News](https://news.ycombinator.com/item?id=25521669)
-    - [However, one worrying thing is that Stjepan deleted his blog including the post on why he made smol.](https://github.com/azdevs/desert-rustaceans/blob/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383/content/2020-10-28.md#smol)
+  - [Since when did S/t/j/e/p/a/n/g leave Rust? | Hacker News](https://news.ycombinator.com/item?id=25521669)
+    - [However, one worrying thing is that S/t/j/e/p/a/n deleted his blog including the post on why he made s/m/o/l.](https://github.com/azdevs/desert-rustaceans/blob/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383/content/2020-10-28.md#smol)
       - [azdevs/desert-rustaceans at 2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383](https://github.com/azdevs/desert-rustaceans/tree/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383)
-    - [async collections in github](https://github.com/stjepang)
+    - [async collections in github](https://github.com/s/t/j/e/p/a/n/g)
     - [Cached version of "Build your own executor"? : rust](https://www.reddit.com/r/rust/comments/v7tq0o/cached_version_of_build_your_own_executor/)
       - [Icarium-Lifestealer](https://www.reddit.com/user/Icarium-Lifestealer/)
       - [Build your own executor](https://archive.ph/n1PK9) on archive.is
@@ -41,11 +41,11 @@ Rust exercise from idea, books and other topics
       - [2020-01-25-build-your-own-block-on.md](./stjepang.github.io_2020.02.22_09.50.12utc/2020-01-25-build-your-own-block-on.md)
         - [从头实现Rust异步block_on :: steven的个人博客](https://stevenbai.top/rust/build_your_own_block_on/)
         - https://github.com/keithnoguchi/books-rs/tree/8974b953c860c63b576ebe67715fd57150aeb341/stjepang
-      - [A few more blogposts](https://archive.ph/stjepang.github.io) on archive.is
+      - [A few more blogposts](https://archive.ph/s/tjepang.github.io) on archive.is
       - [Niko's post is still on archive.org](https://web.archive.org/web/20210212110330/https://smallcultfollowing.com/babysteps/blog/2020/07/09/async-interview-8-stjepan-glavina/)
         - [async-std - Stop worrying about blocking: the new async-std runtime, inspired by Go](https://async.rs/blog/stop-worrying-about-blocking-the-new-async-std-runtime/)
         - [Async Interviews - announcements - The Rust Programming Language Forum](https://users.rust-lang.org/t/async-interviews/35167)
-        - [Why I’m building a new async runtime | Stjepan’s blog](https://archive.ph/7l6vu)
+        - [Why I’m building a new async runtime | S/t/j/e/p/a/n’s blog](https://archive.ph/7l6vu)
       - [Archive of the underlying repository](https://archive.softwareheritage.org/browse/origin/directory/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4) which includes the markdown of all six blog posts.
       - [2017-08-13-designing-a-channel.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2017-08-13-designing-a-channel.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
       - [2019-01-29-lock-free-rust-crossbeam-in-2019.md](https://archive.softwareheritage.org/browse/origin/content/?branch=HEAD&origin_url=https://github.com/stjepang/stjepang.github.io&path=_posts/2019-01-29-lock-free-rust-crossbeam-in-2019.md&snapshot=8d270d1547a6c7aaa5d633da9190127b72a81cd4)
