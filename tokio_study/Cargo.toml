@@ -1,0 +1,48 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
+
+[[bin]]
+name = "t01hellotokio"
+path = "src/t01hellotokio.rs"
+
+[[bin]]
+name = "t02asyncawait"
+path = "src/t02asyncawait.rs"
+
+[[bin]]
+name = "t03tokiomain"
+path = "src/t03tokiomain.rs"
+
+[[bin]]
+name = "t04spawning"
+path = "src/t04spawning.rs"
+
+[[bin]]
+name = "t05spawning_con"
+path = "src/t05spawning_con.rs"
+
+[[bin]]
+name = "t06taskhandle"
+path = "src/t06taskhandle.rs"
+
+[[bin]]
+name = "t07spawnmove"
+path = "src/t07spawnmove.rs"
+
+[[bin]]
+name = "t08sendmove"
+path = "src/t08sendmove.rs"
+
+[[bin]]
+name = "t09storevalue"
+path = "src/t09storevalue.rs"
+
+
