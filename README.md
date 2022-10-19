@@ -85,6 +85,8 @@ Rust exercise from idea, books and other topics
 - [RUST语言 JDON 解道](https://www.jdon.com/tags/28556)
 - [Rust 语言圣经 - Rust语言圣经(Rust Course)](https://course.rs/about-book.html)
 - [Rust exercism.org](https://exercism.org/tracks/rust/concepts/functions)
+  - [超过 88 道练习，任点 - exercisms.io 快速练习](http://llever.com/exercism-rust-zh/)
+  - [chinanf-boy/exercism-rust-zh: 中文翻译: <exercism/rust> exercism.io的rust练习题 (网页版，准备中) 校对 ✅](https://github.com/chinanf-boy/exercism-rust-zh)
 - [Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 - [Jekahome/Incubator-rust-example: Learn Rust](https://github.com/Jekahome/Incubator-rust-example/tree/main)
 - [Desert Rust](https://rust.azdevs.org/)
@@ -133,6 +135,7 @@ Rust exercise from idea, books and other topics
   - [Talks | A learning journal](https://www.lpalmieri.com/talks/)
   - [Zero To Production In Rust - An Introduction To Backend Development](https://www.zero2prod.com/)
   - [Error Handling In Rust - A Deep Dive | A learning journal](https://www.lpalmieri.com/posts/error-handling-rust/)
+
 
 ## Embedded
 - [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
@@ -206,12 +209,16 @@ Rust exercise from idea, books and other topics
     - [WebAssembly实用指南 WebAssembly A Practical Guide](https://www.bilibili.com/video/BV1bL411773t)
 
 - [疯狂滴小黑的个人空间](https://space.bilibili.com/481361060)
-    - [【Udemy付费课程】The Rust Programming Language（中英文字幕）](https://www.bilibili.com/video/BV1K34y1x7F9)
-      - https://www.udemy.com/course/rust-lang/
-      - https://www.koudaizy.com/tag/rust/
-    - [【中英文字幕】Rust - 4小时完整入门课程](https://www.bilibili.com/video/BV1Br4y1b7CU)
-      - https://www.koudaizy.com/tutorials/frontendmasters-rust/
-    - [【Udemy付费课程】Learn Rust by Building Real Applications（中英文字幕）](https://www.bilibili.com/video/BV1gY4y1H7hB)
+  - [【YouTube热门+中英字幕】Easy Rust：192集高质量Rust入门教程](https://www.bilibili.com/video/BV1Ve4y1i7X1)
+  - [【Udemy付费课程】The Rust Programming Language（中英文字幕） --> 学习一种现代、强大而安全的系统编程语言！](https://www.bilibili.com/video/BV1K34y1x7F9)
+    - https://www.udemy.com/course/rust-lang/
+    - https://www.koudaizy.com/tag/rust/
+  - [【中英文字幕】Rust - 4小时完整入门课程](https://www.bilibili.com/video/BV1Br4y1b7CU)
+    - https://www.koudaizy.com/tutorials/frontendmasters-rust/
+  - [【Udemy付费课程】Learn Rust by Building Real Applications（中英文字幕）](https://www.bilibili.com/video/BV1gY4y1H7hB)
+  - [【YouTube精品课程 + 中英字幕】Rust 初学者编程教程 - freecodecamp](https://www.bilibili.com/video/BV1844y1f7nG)
+  - [【YouTube热门+中英字幕】Rust教程 - Tech With Tim](https://www.bilibili.com/video/BV1CV4y1V7SZ)
+  - [【YouTube热门+中文字幕】Python开发者学习Rust最佳路径 - From Python to Rust](https://www.bilibili.com/video/BV1yG4y1n769)
 
 - [2022最新 Rust Yew 学习教程 持续更新](https://www.bilibili.com/video/BV1sB4y127f5)
 
