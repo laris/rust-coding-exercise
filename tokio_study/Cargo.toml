@@ -8,6 +8,7 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1", features = ["full"] }
 mini-redis = "0.4"
+bytes = "1"
 
 [[bin]]
 name = "t01hellotokio"
@@ -45,4 +46,7 @@ path = "src/t08sendmove.rs"
 name = "t09storevalue"
 path = "src/t09storevalue.rs"
 
+[[bin]]
+name = "t10sharedstate"
+path = "src/t10sharedstate.rs"
 
