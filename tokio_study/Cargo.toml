@@ -50,3 +50,8 @@ path = "src/t09storevalue.rs"
 name = "t10sharedstate"
 path = "src/t10sharedstate.rs"
 
+[[bin]]
+name = "t11channels"
+path = "src/t11channels.rs"
+
+
