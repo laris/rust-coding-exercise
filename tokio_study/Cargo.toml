@@ -51,7 +51,19 @@ name = "t10sharedstate"
 path = "src/t10sharedstate.rs"
 
 [[bin]]
-name = "t11channels"
-path = "src/t11channels.rs"
+name = "t11channels1"
+path = "src/t11channels1.rs"
+
+[[bin]]
+name = "t11channels2"
+path = "src/t11channels2.rs"
+
+[[bin]]
+name = "t11channels3"
+path = "src/t11channels3.rs"
+
+[[bin]]
+name = "t12io1"
+path = "src/t12io1.rs"
 
 
