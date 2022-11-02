@@ -16,6 +16,8 @@ Rust exercise from idea, books and other topics
 - AB -> Async Book
 - CK -> [Rust CookBook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - www -> The internet
+- [Rust in Action: Systems programming concepts and techniques](https://livebook.manning.com/book/rust-in-action/chapter-1/)
+  - [《Rust in action》学习笔记 - 知乎](https://www.zhihu.com/column/c_1544832711638163456)
 
 # concurrency programming
 - [smallnest/concurrency-programming-via-rust](https://github.com/smallnest/concurrency-programming-via-rust) 
@@ -137,7 +139,8 @@ Rust exercise from idea, books and other topics
   - [Talks | A learning journal](https://www.lpalmieri.com/talks/)
   - [Zero To Production In Rust - An Introduction To Backend Development](https://www.zero2prod.com/)
   - [Error Handling In Rust - A Deep Dive | A learning journal](https://www.lpalmieri.com/posts/error-handling-rust/)
-
+- [How I went about learning Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2022/how-i-went-about-learning-rust/)
+- [How I went about learning Rust | Hacker News](https://news.ycombinator.com/item?id=32104764)
 
 ## Embedded
 - [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
