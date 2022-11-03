@@ -38,6 +38,7 @@ Rust exercise from idea, books and other topics
 - [Epoll, Kqueue and IOCP Explained with Rust](https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/)
   - [cfsamson/book-exploring-epoll-kqueue-iocp: Rendered version is found at: https://cfsamsonbooks.gitbook.io/epoll-kqueue-iocp-explained/](https://github.com/cfsamson/book-exploring-epoll-kqueue-iocp)
 - [Since when did S/t/j/e/p/a/n/g leave Rust? | Hacker News](https://news.ycombinator.com/item?id=25521669)
+  - [Goodbye · Issue #214 · smol-rs/smol · GitHub](https://web.archive.org/web/20201218233250/https://github.com/smol-rs/smol/issues/214)
   - [However, one worrying thing is that S/t/j/e/p/a/n deleted his blog including the post on why he made s/m/o/l.](https://github.com/azdevs/desert-rustaceans/blob/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383/content/2020-10-28.md#smol)
     - [azdevs/desert-rustaceans at 2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383](https://github.com/azdevs/desert-rustaceans/tree/2d85ca2032e0d228ebb0aa2c5ccb9cec430c2383)
   - [async collections in github](https://github.com/s/t/j/e/p/a/n/g)
