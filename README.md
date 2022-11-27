@@ -142,7 +142,8 @@ Rust exercise from idea, books and other topics
   - [Error Handling In Rust - A Deep Dive | A learning journal](https://www.lpalmieri.com/posts/error-handling-rust/)
 - [How I went about learning Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2022/how-i-went-about-learning-rust/)
 - [How I went about learning Rust | Hacker News](https://news.ycombinator.com/item?id=32104764)
-
+- [pretzelhammer/rust-blog: Educational blog posts for Rust beginners](https://github.com/pretzelhammer/rust-blog)
+  - [rust-blog/tour-of-rusts-standard-library-traits.md at master · pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
 ## Embedded
 - [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
 
