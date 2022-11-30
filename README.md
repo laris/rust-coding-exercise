@@ -18,6 +18,7 @@ Rust exercise from idea, books and other topics
 - www -> The internet
 - [Rust in Action: Systems programming concepts and techniques](https://livebook.manning.com/book/rust-in-action/chapter-1/)
   - [《Rust in action》学习笔记 - 知乎](https://www.zhihu.com/column/c_1544832711638163456)
+- [sger/RustBooks: List of Rust books](https://github.com/sger/RustBooks)
 
 # concurrency programming
 - [smallnest/concurrency-programming-via-rust](https://github.com/smallnest/concurrency-programming-via-rust) 
