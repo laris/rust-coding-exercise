@@ -20,6 +20,17 @@ Rust exercise from idea, books and other topics
   - [《Rust in action》学习笔记 - 知乎](https://www.zhihu.com/column/c_1544832711638163456)
 - [sger/RustBooks: List of Rust books](https://github.com/sger/RustBooks)
 
+- [Hands-On Microservices with Rust | Packt](https://www.packtpub.com/product/hands-on-microservices-with-rust/9781789342758)
+  - [PacktPublishing/Hands-On-Microservices-with-Rust: Hands-On Microservices with Rust 2018, published by Packt](https://github.com/PacktPublishing/Hands-On-Microservices-with-Rust)
+  - [program code for Hands-On Micr_rgwu的博客-CSDN博客](https://blog.csdn.net/m0_37696990/category_9001747.html)
+    - [program code for Hands-On Microservices with Rust 封面_rgwu的博客-CSDN博客_hands-on microservices with rust pdf](https://blog.csdn.net/m0_37696990/article/details/90743276)
+    - [program code for Hands-On Microservices with Rust译 前言(完)_rgwu的博客-CSDN博客](https://blog.csdn.net/m0_37696990/article/details/90171837)
+    - [program code for Hands-On Microservices with Rust译 微服务简介 （第一章）_rgwu的博客-CSDN博客_rust soap](https://blog.csdn.net/m0_37696990/article/details/90739853)
+    - [program code for Hands-On Microservices with Rust译 使用Hyper Crate开发微服务(第二章)_rgwu的博客-CSDN博客](https://blog.csdn.net/m0_37696990/article/details/90740610)
+    - [program code for Hands-On Microservices with Rust译 记录和配置微服务(第三章)_rgwu的博客-CSDN博客_envlogger和log4rs](https://blog.csdn.net/m0_37696990/article/details/90744440)
+    - [program code for Hands-On Microservices with Rust译 涉及与Actors和Actix Crate的并发 (第十一章)（未完待续）_rgwu的博客-CSDN博客_rust actix_web httprequest 获取参数](https://blog.csdn.net/m0_37696990/article/details/90746805)
+
+
 # concurrency programming
 - [smallnest/concurrency-programming-via-rust](https://github.com/smallnest/concurrency-programming-via-rust) 
 - [Async Book](https://rust-lang.github.io/async-book/)
@@ -145,6 +156,9 @@ Rust exercise from idea, books and other topics
 - [How I went about learning Rust | Hacker News](https://news.ycombinator.com/item?id=32104764)
 - [pretzelhammer/rust-blog: Educational blog posts for Rust beginners](https://github.com/pretzelhammer/rust-blog)
   - [rust-blog/tour-of-rusts-standard-library-traits.md at master · pretzelhammer/rust-blog](https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md)
+- [A learning journal](https://www.lpalmieri.com/)
+  - [An Introduction To Session-based Authentication In Rust | A learning journal](https://www.lpalmieri.com/posts/session-based-authentication-in-rust/)
+
 ## Embedded
 - [Async/Await for AVR with Rust - Ben Schattinger](https://lights0123.com/blog/2020/07/25/async-await-for-avr-with-rust/)
 
