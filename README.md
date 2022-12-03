@@ -78,6 +78,7 @@ Rust exercise from idea, books and other topics
 - [Let's talk about this async](https://conradludgate.com/posts/async)
   - [conradludgate/what-the-async: Simple async reactor and executor for rust](https://github.com/conradludgate/what-the-async)
 - [异步编程（async）底层实现机制 | 三点水](https://lotabout.me/2022/async-implementation-domain-concepts/)
+- [Rust Is Hard, Or: The Misery of Mainstream Programming](https://hirrolot.github.io/posts/rust-is-hard-or-the-misery-of-mainstream-programming.html)
 
 # Other resources
 - [local doc - macOS stable](file:///usr/local/rust/rustup/toolchains/nightly-x86_64-apple-darwin/share/doc/rust/html/index.html)
