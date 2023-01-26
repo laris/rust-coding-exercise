@@ -1,6 +1,6 @@
 # rust-coding-exercise
 Rust exercise from idea, books and other topics
-
+# sync into notion @2023.01.25, stop update here
 # Acronym prefix name
 - CS -> [Cheetsheet.rs - Rust Language Cheat Sheet](https://cheats.rs/)
 - BK -> [The Book - The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
