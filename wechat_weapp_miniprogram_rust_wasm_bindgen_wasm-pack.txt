@@ -1,0 +1,96 @@
+> cat Cargo.toml                                                                                        fish-0 | 0 (0.008s) < 21:08:47
+[package]
+name = "hiwasm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+
+[profile.release]
+opt-level = "s"
+lto = true
+
+> cat src/lib.rs                                                                                        fish-0 | 0 (0.005s) < 21:08:49
+use wasm_bindgen::prelude::*;
+
+#[wasm_bindgen]
+extern {
+    pub fn alert(s: &str);
+}
+
+#[wasm_bindgen]
+pub fn greet(name: &str) {
+    alert(&format!("Hello, {}!", name));
+}
+
+#[wasm_bindgen]
+pub fn add(a: i32, b: i32) -> i32 {
+    //utils::set_panic_hook();
+    a + b
+}
+
+#[wasm_bindgen]
+pub fn first_char(input: &str) -> char {
+    //utils::set_panic_hook();
+    input.chars().next().unwrap()
+}
+
+wasm-pack build --target web
+
+> ll pkg/                                                                                               fish-0 | 0 (0.007s) < 21:09:33
+total 168
+-rw-r--r--  1 laris  staff   2.3K Jan 30 14:45 EncoderDecoderTogether.min.js
+-rw-r--r--  1 laris  staff   1.4K Jan 30 20:34 hiwasm.d.ts
+-rw-r--r--  1 laris  staff   4.7K Jan 30 20:34 hiwasm.js
+-rw-r--r--  1 laris  staff    13K Jan 30 20:34 hiwasm_bg.wasm
+-rw-r--r--  1 laris  staff   374B Jan 30 20:34 hiwasm_bg.wasm.d.ts
+-rw-r--r--  1 laris  staff   615B Jan 30 20:45 js-patch-1.diff
+-rw-r--r--  1 laris  staff   194B Jan 30 20:34 package.json
+-rw-r--r--  1 laris  staff   1.7K Jan 30 14:45 wx.patch
+
+> cat pkg/js-patch-1.diff                                                                               fish-0 | 0 (0.005s) < 21:09:51
+0a1,4
+> require('./EncoderDecoderTogether.min.js')
+> const { TextEncoder, TextDecoder } = global;
+> const WebAssembly = WXWebAssembly;
+> const fetch = e => e;
+18c18,19
+<     return cachedTextDecoder.decode(getUint8Memory0().subarray(ptr, ptr + len));
+---
+>     return String.fromCharCode.apply(null, getUint8Memory0().subarray(ptr, ptr + len))
+>
+163,165d163
+<     if (typeof input === 'undefined') {
+<         input = new URL('hiwasm_bg.wasm', import.meta.url);
+<     }
+174c172
+<     const { instance, module } = await load(await input, imports);
+---
+>     const { instance, module } = await load(input, imports);
+
+// pages/index/index.js
+import init, {add, first_char} from './hiwasm'
+Page({
+    onLoad: async function (options) {
+      await init('/pages/index/hiwasm_bg.wasm');
+      var res = add(1, 2);
+      console.log(res)
+      var res;
+      wx.setClipboardData({
+        data: first_char('微信借铁板'),
+        success (res) {
+          wx.getClipboardData({
+            success (res) {
+              console.log(res.data) // data
+            }
+          })
+        }
+      })
+      //console.log(data)
+    }
+})
