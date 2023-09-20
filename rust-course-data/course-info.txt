@@ -1,0 +1,1017 @@
+https://zerotomastery.io/courses/learn-rust/
+https://academy.zerotomastery.io/p/learn-rust
+
+Rust Programming: The Complete Developer's Guide
+
+Learn the Rust programming language from scratch! Learn how to code and build your own real-world applications using Rust so that you can get hired this year. No previous programming or Rust experience needed.
+
+instructor
+Taught by: Jayson Lennon
+Last updated: August 2023
+--------------------------------------------------------------------------------
+
+[Course overview
+
+We guarantee you that this is the most comprehensive and up-to-date Rust programming course that you can find to go from absolute beginner to learning the fundamentals of programming and getting hired as a Rust developer this year.
+
+WHAT YOU'LL LEARN
+
+ Fundamentals of computer programming concepts such as conditional logic, loops, and data transformations
+ Foundational computer science topics such as computer memory, program logic, and simple data structures
+ Working with data: enums, structs, tuples, expressions, optional data and more
+ Solid understanding of all core concepts of the Rust programming language such as: memory, mutability, traits, slices, and generics
+ Reading and writing application code in the Rust programming language
+ Utilization of the Rust ecosystem to develop applications more efficiently
+ How to translate real-life requirements into working applications to solve real-world problems (and that you can add to your portfolio)
+ How to make your programs reliable through the use of automated testing and by leveraging features of the Rust language
+Students continue to tell us that this course is the perfect complement to the official Rust-Lang Book (which is also a fantastic resource).
+
+Why?
+
+Because this course is focused on learning by doing, not watching endless tutorials with nothing to show for it. You are going to learn Rust by actually coding along and building your own Rust projects.
+
+And you won't be learning Rust alone.
+
+Because by enrolling today, you’ll also get to join our exclusive live online community classroom so that you'll be learning alongside thousands of students, alumni, mentors, TAs and Instructors.
+
+Active. Thriving. Supportive. Helpful. Friendly. Motivating. Essential.
+
+These are just a few of the words students use to describe the ZTM Discord which is also one of the biggest and most active developer communities on Discord.
+
+Most importantly, you will be learning from (and with) Jayson, an industry expert that has actual real-world experience using Rust to build applications for companies.
+
+But I don't know anything about Rust or programming!?
+
+Perfect. This Rust programming course is built for you, the complete beginner who wants to learn how to code without getting overwhelmed by technical jargon and computer science topics.
+
+We will start by teaching you the core programming concepts necessary to get started building applications while also providing a solid foundation for future learning.
+
+The best way to learn programming is to actually DO IT!
+
+That's why you will be writing engaging and interesting programs as quickly as possible.
+
+How, you ask? This course features 30 coding exercises to complement the lectures, and are designed with real-world applications in mind.
+
+Each exercise presents a problem with hints on how to implement a solution, so you can get the practice you need to be successful. The exercises are accompanied with a video demonstrating a possible implementation for the exercise, and line-by-line commentary on how the code accomplishes the task and why it works.
+
+The information in this course is introduced in a thoughtful order, which means you will always be aware of what every bit of code in a program is doing, and how it works the way it does.
+
+There is no need to wait until later in the course, or to study more advanced topics, in order to fully understand the code when presented.
+
+This is accomplished by building up your knowledge through concise, easy to follow lectures that can be reviewed quickly.
+
+By the end of this Rust course, you will learn:
+
+Critical concepts necessary to work with code, without overwhelming detail
+Creation of digital solutions for real-world problems
+Reading and writing application code in the Rust programming language
+Utilization of the Rust ecosystem to efficiently develop applications
+Automated testing to enhance the reliability of your solutions
+How to make your projects easier to work with through the use of generated documentation
+Foundational computer science topics such as computer memory, program logic, and simple data structures
+So this is just another course for beginners?
+
+Come on now, is that a serious question?! We're Zero To Mastery. We would never do that to you. We go beyond the basics.
+
+This course isn't just for beginner programmers, but any programmer who wishes to learn Rust.
+
+If you have experience coding in a high level memory-managed language such as Python, JavaScript, or C#, then this course is a great introduction to the Rust programming language (which is a low-level programming language) and its unique memory model and syntax.
+
+We also make sure to cover intermediate and advanced topics so that you can build projects can cut it in the real-world.
+
+Check out the full list of lessons if you haven't already to see everything that is covered.
+
+Like all of our courses, this course isn't about making you just code along without understanding the principles so that when you are done with the course you don’t know what to do other than watch another tutorial... No!
+
+This course will push you and challenge you to go from an absolute beginner to someone that can build your own real-world Rust applications and get hired as a Rust developer 💪.
+
+Graduates of Zero To Mastery are now working at Google, Tesla, Amazon, Apple, IBM, JP Morgan, Facebook, Shopify + other top tech companies.
+
+They are also working as top freelancers getting paid while working remotely around the world.
+
+And they come from all different backgrounds, ages, and experiences. Many even started as complete beginners.
+
+So there's no reason it can't be you too.
+
+](https://zerotomastery.io/courses/learn-rust/#Overview)
+
+--------------------------------------------------------------------------------
+
+This course includes:
+Access to exclusive ZTM community
+Certificate of Completion
+Everything you need to go from complete beginner to getting hired as a Rust Developer
+Unlimited access to all courses, workshops, career paths and resources
+ 20 hours
+ 228 + lessons
+ 2 Projects
+--------------------------------------------------------------------------------
+
+ Prerequisites:
+No prior programming knowledge is required. You will learn everything from scratch. Perfect for beginners
+A computer (Windows, Mac, or Linux) with an internet connection
+--------------------------------------------------------------------------------
+Frequently asked questions
+
+Are there any prerequisites for this course?
+A computer (Windows, Mac, or Linux) with an internet connection. That's it!
+No prior programming knowledge is required. You will learn everything from scratch
+A willingness and enthusiasm to learn
+This course is absolutely ideal for beginners. While you will learn many more advanced topics as well, this course might not be for you if you already have more than a few years of Rust experience
+
+
+Who is this course for?
+Anyone who wants to gain a complete and practical understanding of the Rust programming language without needing ANY prior programming or Rust knowledge
+You want a step-by-step guide to learn how to code using the Rust programming language from scratch all the way to being able to get hired at a top company as a Rust developer
+Anyone with some programming experience that wants to learn a more powerful low-level programming language that is much safer and more preferred by big companies
+Anyone who wants to learn the most-loved (voted on by 80,000+ developers for 5 years in a rows) and one of the fastest growing programming languages
+Students who are frustrated with their current progress with all of the beginner Rust tutorials out there that don't go beyond the basics and don't give you real-world practice or skills you need to actually get hired
+Bootcamp or online Rust tutorial graduates that want to go beyond the basics
+You want to learn Rust from someone with real-world experience having designed, written, and deployed reliable and secure Rust-powered full-stack web applications
+
+
+
+Do you provide a certificate of completion?
+We definitely do and they are quite nice. You will also be able to add Zero To Mastery Academy to the education section of your LinkedIn profile as well.
+
+Can I use the course projects in my portfolio?
+Yes, you’d be crazy not to in our slightly biased opinion! All projects are downloadable and ready to use the minute you join.
+Many of our students tell us the projects they built while following along with our courses were what got them interviews and because they built the projects themselves, they could confidently explain and walk through their work during the interview.
+You know what that means? Job offer!
+
+Can I download the videos?
+Definitely. You can download any and all lessons for personal use. We do everything we can to make learning easy, fun and accessible. Whether that’s on your commute, on a flight or just when you have limited access to good WiFi.
+
+Still have more questions about the Academy?
+Still have more questions specific to the Academy membership? No problem, we answer some more here.
+
+
+--------------------------------------------------------------------------------
+
+Course curriculum
+
+To make sure this course is a good fit for you, you can start learning Rust for free right now by clicking any of the PREVIEW links below.
+--------------------------------------------------------------------------------
+
+Intoduction
+4 lectures
+Rust Programming: The Complete Developer's Guide•2:46
+
+PREVIEW
+Exercise: Meet Your Classmates and Instructor
+
+BEGIN
+Course Projects + Code + Slides + Cheatsheet
+
+BEGIN
+How-to's: Speed up videos, Downloading videos, Subtitles
+
+BEGIN
+--------------------------------------------------------------------------------
+Rust Fundamentals
+13 lectures
+Intro•2:26
+
+PREVIEW
+Data Types•2:25
+
+PREVIEW
+Variables•6:35
+
+PREVIEW
+Functions•8:12
+
+PREVIEW
+println!•3:04
+
+PREVIEW
+Control Flow with If•8:38
+
+PREVIEW
+Repetition•6:30
+
+PREVIEW
+Setup Rust•4:49
+
+PREVIEW
+Comments•3:36
+
+PREVIEW
+Activity: Functions•7:08
+
+PREVIEW
+Numeric Types & Basic Arithmetic•3:36
+
+PREVIEW
+Activity: Basic Math•5:27
+
+PREVIEW
+Unlimited Updates
+
+BEGIN
+--------------------------------------------------------------------------------
+
+Making Decisions with Rust
+7 lectures
+Control Flow: If & Else•2:33
+
+PREVIEW
+Activity: Logic with If & Else•3:59
+
+BEGIN
+Activity: Logic with If & Else•4:59
+
+BEGIN
+Match Expression•4:25
+
+BEGIN
+Demo: Basic Match•3:11
+
+BEGIN
+Activity: Basic Match 1•4:03
+
+BEGIN
+Activity: Basic Match 2•5:11
+
+BEGIN
+--------------------------------------------------------------------------------
+Repetition
+4 lectures
+The Loop Expression•4:48
+
+BEGIN
+Activity: Loops•4:58
+
+BEGIN
+The While Loop•3:22
+
+BEGIN
+Activity: While Loops•4:45
+
+BEGIN
+--------------------------------------------------------------------------------
+
+Working With Data
+12 lectures
+Enums•3:11
+
+BEGIN
+Demo: Enums•3:43
+
+BEGIN
+Activity: Enums•6:09
+
+BEGIN
+Structs•2:47
+
+BEGIN
+Demo: Structs•2:51
+
+BEGIN
+Activity: Structs•9:27
+
+BEGIN
+Tuples•3:31
+
+BEGIN
+Demo: Tuples•5:49
+
+BEGIN
+Activity: Tuples•5:55
+
+BEGIN
+Expressions•3:49
+
+BEGIN
+Demo: Expressions•5:09
+
+BEGIN
+Activity: Expressions•7:11
+
+BEGIN
+--------------------------------------------------------------------------------
+
+Rust's Memory Model
+4 lectures
+Intermediate Memory Concepts•3:34
+
+BEGIN
+Ownership•6:17
+
+BEGIN
+Demo: Ownership•6:06
+
+BEGIN
+Activity: Ownership•4:57
+
+BEGIN
+
+--------------------------------------------------------------------------------
+
+Data Collections
+8 lectures
+Implementing Functionality•9:20
+
+BEGIN
+Activity: Implementing Functionality•16:30
+
+BEGIN
+The Vector Data Structure•4:53
+
+BEGIN
+Vector Basics & For Loops•2:28
+
+BEGIN
+Activity: Vectors & For Loops•6:47
+
+BEGIN
+About Strings•4:00
+
+BEGIN
+Demo: Strings•4:28
+
+BEGIN
+Activity: Strings•7:23
+
+BEGIN
+--------------------------------------------------------------------------------
+Expanding Knowledge
+11 lectures
+Deriving Functionality•6:08
+
+BEGIN
+Type Annotations•4:07
+
+BEGIN
+Enums Revisited•3:59
+
+BEGIN
+Demo: Advanced Match•7:57
+
+BEGIN
+Activity: Advanced match•10:42
+
+BEGIN
+The Option Type•6:26
+
+BEGIN
+Demo: Option•4:26
+
+BEGIN
+Activity: Option•5:01
+
+BEGIN
+Generating Documentation•2:24
+
+BEGIN
+Standard Library API docs•3:33
+
+BEGIN
+Activity: Standard Library API docs•3:46
+
+BEGIN
+--------------------------------------------------------------------------------
+Fallible Functions
+4 lectures
+The Result Type•4:40
+
+BEGIN
+Demo: Result•14:16
+
+BEGIN
+Activity: Result•6:40
+
+BEGIN
+Activity: Result & The Question Mark Operator•7:51
+
+BEGIN
+--------------------------------------------------------------------------------
+Data Collection: HashMap
+3 lectures
+The HashMap Data Structure•4:20
+
+BEGIN
+Working With HashMaps•5:32
+
+BEGIN
+Activity: HashMap Basics•8:26
+
+BEGIN
+
+--------------------------------------------------------------------------------
+
+Easier Data Management
+10 lectures
+Basic Closures•4:41
+
+BEGIN
+Map Combinator•5:01
+
+BEGIN
+Activity: Map Combinator•8:07
+
+BEGIN
+Option Combinator Pattern•7:49
+
+BEGIN
+Activity: Option Combinators•4:23
+
+BEGIN
+Using Iterators•9:12
+
+BEGIN
+Activity: Using Iterators•5:14
+
+BEGIN
+Ranges•1:58
+
+BEGIN
+If..let..else•2:58
+
+BEGIN
+while..let•2:06
+
+BEGIN
+--------------------------------------------------------------------------------
+Managing Code
+8 lectures
+Inline Modules•4:02
+
+BEGIN
+Activity: Inline Modules•10:17
+
+BEGIN
+Testing•6:52
+
+BEGIN
+Activity: Testing•7:42
+
+BEGIN
+External Crates•6:28
+
+BEGIN
+Activity: Adding an External Crate•4:44
+
+BEGIN
+External Modules•10:27
+
+BEGIN
+Activity: External Modules•9:54
+
+BEGIN
+
+--------------------------------------------------------------------------------
+Milestone Project: Billing Application
+9 lectures
+Gathering User Input•14:21
+
+BEGIN
+Activity: Gathering User Input•22:47
+
+BEGIN
+Mini Project: Introduction•2:44
+
+BEGIN
+Retrieve User Input•3:16
+
+BEGIN
+Creating The Main Menu Loop•7:14
+
+BEGIN
+Required Data Structures•4:10
+
+BEGIN
+Implementation: Adding & Viewing Bills•13:00
+
+BEGIN
+Implementation: Removing Bills•6:50
+
+BEGIN
+Implementation: Editing Bills•9:15
+
+BEGIN
+
+--------------------------------------------------------------------------------
+Shared Functionality
+15 lectures
+Traits•4:54
+
+BEGIN
+Demo: Traits•4:58
+
+BEGIN
+Activity: Traits•5:58
+
+BEGIN
+Implementing The "Default" Trait•2:28
+
+BEGIN
+Generics & Functions•13:54
+
+BEGIN
+Demo: Generics & Functions•6:22
+
+BEGIN
+Activity: Generics & Functions•5:52
+
+BEGIN
+Generic Structures•10:06
+
+BEGIN
+Generic Structures & impl Blocks•7:58
+
+BEGIN
+Demo: Generics & Structures•6:38
+
+BEGIN
+Activity: Generics & Structures•10:18
+
+BEGIN
+Advanced Memory Concepts•8:50
+
+BEGIN
+Trait Objects•11:35
+
+BEGIN
+Demo: Trait Objects•7:26
+
+BEGIN
+Activity: Trait Objects•8:35
+
+BEGIN
+--------------------------------------------------------------------------------
+
+Lifetimes
+4 lectures
+Ownership & Lifetimes•9:03
+
+BEGIN
+Demo: Lifetimes•8:32
+
+BEGIN
+Activity: Lifetimes & Structures•10:49
+
+BEGIN
+Activity: Lifetimes & Functions•4:47
+
+BEGIN
+
+--------------------------------------------------------------------------------
+Improving Program Reliability
+16 lectures
+Custom Error Types•8:51
+
+BEGIN
+Demo: Custom Error Types•8:53
+
+BEGIN
+Activity: Creating a Custom Error•9:01
+
+BEGIN
+const•2:20
+
+BEGIN
+New Type Pattern•5:07
+
+BEGIN
+Activity: Utilizing The New Type Pattern•8:08
+
+BEGIN
+TypeState Pattern•4:13
+
+BEGIN
+Demo: TypeState Pattern•11:48
+
+BEGIN
+Activity: TypeState Pattern•7:41
+
+BEGIN
+Demo: Match Guards & Binding•6:22
+
+BEGIN
+Activity: Match Guards & Binding•8:45
+
+BEGIN
+Arrays & Slices•7:48
+
+BEGIN
+Slice Patterns•5:53
+
+BEGIN
+Activity: Slices•5:41
+
+BEGIN
+Type Aliases•5:22
+
+BEGIN
+Exercise: Imposter Syndrome•2:55
+
+BEGIN
+--------------------------------------------------------------------------------
+Type Conversions
+5 lectures
+From/Into•8:17
+
+BEGIN
+TryFrom/TryInto•3:56
+
+BEGIN
+Demo: From/Into•7:58
+
+BEGIN
+Activity: TryFrom/TryInto•10:15
+
+BEGIN
+Numeric Limits & Numeric Type Casting•7:59
+
+BEGIN
+
+--------------------------------------------------------------------------------
+Parallel Execution
+8 lectures
+Passing Closures to Functions•10:53
+
+BEGIN
+Threads•6:44
+
+BEGIN
+Demo: Threads•7:39
+
+BEGIN
+Activity: Threads•4:29
+
+BEGIN
+Channels•8:13
+
+BEGIN
+Demo: Channels•5:04
+
+BEGIN
+Demo: Bidirectional Threaded Communication•7:28
+
+BEGIN
+Activity: Channels•9:23
+
+BEGIN
+--------------------------------------------------------------------------------
+Shared Ownership
+8 lectures
+Smart Pointers•4:07
+
+BEGIN
+Interior Mutability: Cell & RefCell•8:06
+
+BEGIN
+Demo: Smart Pointers & RefCell•6:00
+
+BEGIN
+Activity: Smart Pointers & ReffCell•9:14
+
+BEGIN
+Arc/Mutex•8:38
+
+BEGIN
+Threading: Deadlocks•6:27
+
+BEGIN
+Demo: Arc/Mutex•4:15
+
+BEGIN
+Activity: Arc/Mutex•5:13
+
+BEGIN
+--------------------------------------------------------------------------------
+Standard Library Tour
+10 lectures
+Enum Equality & Ordering•3:42
+
+BEGIN
+Struct Equality & Ordering•4:23
+
+BEGIN
+Operator Overloading•7:24
+
+BEGIN
+Iterators: Implementing Iterator for a Struct•3:31
+
+BEGIN
+Implement IntoIterator•7:58
+
+BEGIN
+Demo: Implementing IntoIterator•9:23
+
+BEGIN
+Activity: Implementing Iterator•5:45
+
+BEGIN
+Iterators: Custom Iteration Logic•8:07
+
+BEGIN
+Helpful Macros•7:48
+
+BEGIN
+Managing Integer Overflow•5:39
+
+BEGIN
+--------------------------------------------------------------------------------
+Other Language Features
+5 lectures
+Turbofish•2:29
+
+BEGIN
+Loop Labels•2:44
+
+BEGIN
+Loop Expressions•2:34
+
+BEGIN
+Struct Update Syntax•2:47
+
+BEGIN
+Escape Sequences & Raw Strings•4:17
+
+BEGIN
+--------------------------------------------------------------------------------
+Development Experience
+3 lectures
+rust-analyzer•4:18
+
+BEGIN
+clippy•2:31
+
+BEGIN
+error-lens•1:27
+
+BEGIN
+--------------------------------------------------------------------------------
+Crate Roundup
+11 lectures
+dotenvy•2:32
+
+BEGIN
+serde•3:56
+
+BEGIN
+rand•4:20
+
+BEGIN
+cached•4:16
+
+BEGIN
+regex•5:17
+
+BEGIN
+chrono•7:31
+
+BEGIN
+strum•4:24
+
+BEGIN
+derive_more•6:32
+
+BEGIN
+rayon•4:00
+
+BEGIN
+tracing•6:29
+
+BEGIN
+color-eyre•4:15
+
+BEGIN
+--------------------------------------------------------------------------------
+Resources
+1 lectures
+Helpful Links for Your Rust Career
+
+BEGIN
+--------------------------------------------------------------------------------
+Final Project: Clip Stash
+53 lectures
+Async Primer•7:51
+
+BEGIN
+Introduction To The Project•1:03
+
+BEGIN
+Architecture•3:38
+
+BEGIN
+Walkthrough & Domain Structure Modules•7:25
+
+BEGIN
+Domain Errors•6:02
+
+BEGIN
+Domain Implementation: Content & Hits•6:36
+
+BEGIN
+Domain Implementation: Password•6:27
+
+BEGIN
+Domain Implementation: Shortcode•7:32
+
+BEGIN
+Domain Implementation: Title•2:40
+
+BEGIN
+Domain Implementation: Time•6:48
+
+BEGIN
+Domain Implementation: Expire & Posted•5:03
+
+BEGIN
+Domain Implementation: Dbld & Clipld•6:00
+
+BEGIN
+Recap & Error Correction•5:18
+
+BEGIN
+Database Type Aliases•7:25
+
+BEGIN
+Database Wrapper•4:12
+
+BEGIN
+Database Model•11:56
+
+BEGIN
+SQL Primer•4:25
+
+BEGIN
+sqlx cli•1:42
+
+BEGIN
+Database Query: Get Clip•6:55
+
+BEGIN
+Database Query: New Clip•7:06
+
+BEGIN
+Database Query: Update Clip•3:51
+
+BEGIN
+Recap & Next Steps•4:18
+
+BEGIN
+Service Layer: Errors•7:34
+
+BEGIN
+Service Layer: Get Clip•11:22
+
+BEGIN
+Service Layer: Add & Update Clip•7:21
+
+BEGIN
+Templates•2:00
+
+BEGIN
+Page Contexts•6:15
+
+BEGIN
+Template Renderer•14:30
+
+BEGIN
+Rocket Framework•4:28
+
+BEGIN
+Initial Web Setup•3:46
+
+BEGIN
+Web Forms•9:19
+
+BEGIN
+Homepage, Catchers, and Router•5:45
+
+BEGIN
+Rocket Configuration•3:34
+
+BEGIN
+Running the Server•9:34
+
+BEGIN
+Retrieving a Clip•11:05
+
+BEGIN
+Saving a Clip•13:14
+
+BEGIN
+Password Protected Clips•7:12
+
+BEGIN
+Raw Clips•5:31
+
+BEGIN
+Hit Counter•1:39
+
+BEGIN
+Hit Counter - Service & Data•11:38
+
+BEGIN
+Hit Counter Implementation part 1•12:27
+
+BEGIN
+Hit Counter Implementation part 2•5:58
+
+BEGIN
+Database Migration•1:11
+
+BEGIN
+API: Keys & Error Handling•9:19
+
+BEGIN
+API: Service & Queries•7:10
+
+BEGIN
+API: Request Guard•6:43
+
+BEGIN
+API: Routing•12:06
+
+BEGIN
+API Client: Cargo.toml & CLI Options•8:38
+
+BEGIN
+API Client: Get Clip & New Clip•7:42
+
+BEGIN
+API Client: Update Clip & Making Requests•6:07
+
+BEGIN
+Maintenance Tasks•7:06
+
+BEGIN
+Testing: Database•9:14
+
+BEGIN
+Testing: HTTP Routes•10:00
+
+BEGIN
+
+--------------------------------------------------------------------------------
+Declarative Macros
+14 lectures
+Overview•6:54
+
+BEGIN
+Detail•15:39
+
+BEGIN
+Demo: impl Blocks•6:38
+
+BEGIN
+Activity: Control Flow•2:51
+
+BEGIN
+Activity: impl Blocks•2:34
+
+BEGIN
+Repetitions•8:46
+
+BEGIN
+Demo: Repetitions•3:14
+
+BEGIN
+Activity: HashMap•5:22
+
+BEGIN
+Demo: Syntax Extension•8:52
+
+BEGIN
+Activity: Syntax Extension•4:11
+
+BEGIN
+Activity: Generating Tests•6:31
+
+BEGIN
+Activity: Function Tracer•4:47
+
+BEGIN
+Demo: Checked Config•13:18
+
+BEGIN
+Demo: Recursive tt Muncher•6:40
+
+BEGIN
+--------------------------------------------------------------------------------
+Where To Go From Here?
+6 lectures
+Thank You!•1:17
+
+BEGIN
+Review This Course!
+
+BEGIN
+Become An Alumni
+
+BEGIN
+Learning Guideline
+
+BEGIN
+LinkedIn Endorsements
+
+BEGIN
+Coding Challenges
+
+BEGIN
+
