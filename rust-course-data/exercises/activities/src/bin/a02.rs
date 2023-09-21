@@ -12,9 +12,9 @@ fn fn_add(input_a: i32, input_b: i32) -> i32 {
     input_a + input_b 
 }
 
-fn display_fn_add(value: i32) {
+fn display_result(value: i32) {
    println!("{:?}", value); 
 }
 fn main() {
-    display_fn_add(fn_add(1, 2));
+    display_result(fn_add(1, 2));
 }
