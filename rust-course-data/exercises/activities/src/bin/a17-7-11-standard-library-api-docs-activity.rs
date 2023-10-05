@@ -12,4 +12,8 @@
 //   to uppercase and lowercase
 //   * Try searching for: to_uppercase, to_lowercase
 
-fn main() {}
+fn main() {
+    let s = "This is my STring";
+    println!("uppercase: {:?}", s.to_uppercase());
+    println!("lowercase: {:?}", s.to_uppercase().to_lowercase());
+}
