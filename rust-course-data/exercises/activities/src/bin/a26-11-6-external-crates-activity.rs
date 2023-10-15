@@ -8,4 +8,11 @@
 // * (OPTIONAL) Read the documentation section `Formatting and Parsing`
 //   for examples on how to create custom time formats
 
-fn main() {}
+use chrono::prelude::*;
+
+fn main() {
+    let local: DateTime<Local> = Local::now();
+    //println!("{:?}", local);
+    //println!("{:?}", local.format("%Y-%m-%d %H:%M:%S").to_string());
+    println!("{:?}", local.format("%Y.%m.%d-%H.%M.%S").to_string());
+}
