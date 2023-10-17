@@ -30,7 +30,9 @@ lib
  */
 //use ::activity::math::math::*; v18 ::+crate, v15 :: = crate root
 use activity::math::math::*;
-use activity::msg::*;
+use activity::msg::*; // this work
+//use crate::msg::*; // this not work will report activity no exist
+
 
 fn main() {
     // Part 1: math functions
