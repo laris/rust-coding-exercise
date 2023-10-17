@@ -15,32 +15,22 @@
 // * Update your Cargo.toml to include a library file
 // * After moving the functions into modules, try running
 //   `cargo check --bin a26c` to get a listing of required code changes
+/*
 
-fn trim(msg: &str) -> &str {
-    msg.trim()
-}
+[lib]
+name = "activity"
+path = "src/lib/activitylib.rs"
 
-fn capitalize(msg: &str) -> std::borrow::Cow<'_, str> {
-    if let Some(letter) = msg.get(0..1) {
-        format!("{}{}", letter.to_uppercase(), &msg[1..msg.len()]).into()
-    } else {
-        msg.into()
-    }
-}
-
-fn exciting(msg: &str) -> String {
-    format!("{}!", msg)
-}
-
-fn add(lhs: isize, rhs: isize) -> isize {
-    lhs + rhs
-}
-fn sub(lhs: isize, rhs: isize) -> isize {
-    lhs - rhs
-}
-fn mul(lhs: isize, rhs: isize) -> isize {
-    lhs * rhs
-}
+lib
+├── activitylib.rs { pub mod math; pub mod msg; }
+├── math
+│   ├── mod.rs  { pub mod math;  }
+│   └── math.rs { pub fn add()... }
+└── msg.rs      { pub fn msg()... }
+ */
+//use ::activity::math::math::*; v18 ::+crate, v15 :: = crate root
+use activity::math::math::*;
+use activity::msg::*;
 
 fn main() {
     // Part 1: math functions
