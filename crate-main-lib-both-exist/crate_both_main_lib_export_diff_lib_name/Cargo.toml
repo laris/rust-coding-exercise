@@ -1,0 +1,10 @@
+[package]
+name = "crate_both_main_lib_export_diff_lib_name"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "libname"
+path = "src/lib.rs"
+
+[dependencies]

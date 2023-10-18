@@ -1,0 +1,7 @@
+[package]
+name = "crate_ref_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crate_both_main_lib_export = { path = "../crate_both_main_lib_export" }
