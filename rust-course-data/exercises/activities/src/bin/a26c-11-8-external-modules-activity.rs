@@ -27,6 +27,7 @@ lib
 │   ├── mod.rs  { pub mod math;  }
 │   └── math.rs { pub fn add()... }
 └── msg.rs      { pub fn msg()... }
+// directory is mod (need show in path), mod.rs treat same with directory, file is mod (need show in path)
  */
 //use ::activity::math::math::*; v18 ::+crate, v15 :: = crate root
 use activity::math::math::*;
