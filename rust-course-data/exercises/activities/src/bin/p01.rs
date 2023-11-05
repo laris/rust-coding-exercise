@@ -28,5 +28,61 @@
 //   the functionality for that menu in isolation.
 // * A vector is the easiest way to store the bills at stage 1, but a
 //   hashmap will be easier to work with at stages 2 and 3.
+#[derive(Debug)]
+struct Bill {
+    name: String,
+    amount: f64,
+}
 
-fn main() {}
+fn view_bills(bills: &Vec<Bill>) {
+    for (idx, bill) in bills.iter().enumerate() {
+        println!("{idx}: name: {} amount: {}", bill.name, bill.amount);
+    }
+}
+
+#[derive(Debug)]
+enum Cmd {
+    View,
+    Add,
+    Quit,
+    InvalidCmd(String),
+}
+impl From<&str> for Cmd {
+    fn from(cmd: &str) -> Self {
+        match cmd {
+            "1" | "view" => Cmd::View,
+            "2" | "add" => Cmd::Add,
+            "0" | "q" | "quit" | "exit" => Cmd::Quit,
+            cmd@_ => Cmd::InvalidCmd(cmd.into()),
+        }
+    }
+}
+fn parse_input() -> std::io::Result<Cmd> {
+    let mut input = String::new();
+    std::io::stdin().read_line(&mut input)?;
+    Ok(input.trim().to_lowercase().as_str().into())
+}
+
+fn print_menu() {
+    println!("Menu:");
+    println!("1. View bills");
+    println!("2. Add bills");
+    println!("0. Quit");
+    println!("Please input the command:");
+}
+fn main() {
+    let mut bills = Vec::<Bill>::new();
+    loop {
+        print_menu();
+        match parse_input() {
+            Err(e) => { println!("Invalid cmd: {e:?}, please retry"); continue; },
+            Ok(cmd) => {
+                match cmd {
+                    Cmd::View => view_bills(&bills),
+                    Cmd::Quit => break,
+                    e@_ => { println!("Invalid cmd: {e:?}, please retry"); continue; }
+                }
+            }
+        }
+    }
+}
