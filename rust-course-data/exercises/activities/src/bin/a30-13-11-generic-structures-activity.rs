@@ -18,4 +18,24 @@
 trait Body {}
 trait Color {}
 
-fn main() {}
+#[derive(Debug)]
+struct Vehicle<B: Body, C: Color> {
+    body: B,
+    color: C,
+}
+
+impl<B: Body, C: Color> Vehicle<B, C> {
+    fn new(body: B, color: C) -> Self { Self { body, color } }
+}
+
+#[derive(Debug)]
+enum Ebody { Truck, Car, Scooter, }
+impl Body for Ebody {}
+#[derive(Debug)]
+enum Ecolor { Red, White, Black, }
+impl Color for Ecolor {}
+
+fn main() {
+    let v1 = Vehicle::new(Ebody::Truck, Ecolor::Red);
+    println!("{v1:?}");
+}
