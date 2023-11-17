@@ -15,25 +15,25 @@ use std::fmt::Display;
 
 #[derive(Debug, Error)]
 enum Color {
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Black,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Blue,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Brown,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Custom(String),
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Gray,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Green,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Purple,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Red,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     White,
-    #[error("{self}")]
+    #[error("<enum Color, Error: {self:?}>")]
     Yellow,
 }
 
@@ -41,14 +41,16 @@ enum Color {
 struct ShirtColor(Color);
 impl Display for ShirtColor {
     fn fmt(&self, fmt: &mut std::fmt::Formatter) -> std::result::Result<(), std::fmt::Error> {
-        write!(fmt, "{}", self.0);
+        //self.0.fmt(fmt);
+        //write!(fmt, "{}", self.0);
+        write!(fmt, "<Display for struct ShirtColor: {:?}>", self.0);
         Ok(())
     }
 }
 
 #[derive(Debug, Error)]
 enum ShirtColorErr {
-    #[error("this color {} is not allow", .0)]
+    #[error("<Error for Enum ShirtColorErr: This color {} is not allow>", .0)]
     NoAllowedColor(Color),
 }
 /*
@@ -75,21 +77,23 @@ impl ShoesColor { fn new(color: Color) -> Self { Self(color) } }
 struct PantsColor(Color);
 impl PantsColor { fn new(color: Color) -> Self { Self(color) } }
 
-fn print_shirt_color(color: ShirtColor) { println!("Shirt color = {:?}", color); }
-fn print_shoes_color(color: ShoesColor) { println!("Shoes color = {:?}", color); }
-fn print_pants_color(color: PantsColor) { println!("Pants color = {:?}", color); }
+fn print_shirt_color(color: ShirtColor) { println!("Shirt color = Display: {}, Debug: {:?}", color, color); }
+fn print_shoes_color(color: ShoesColor) { println!("Shoes color = Debug: {:?}", color); }
+fn print_pants_color(color: PantsColor) { println!("Pants color = Debug: {:?}", color); }
 
 fn main() {
     let shirt_color = ShirtColor::new(Color::Black);
 
     let shirt_color_purple = ShirtColor::new_check(Color::Purple);
-    println!("{shirt_color_purple:?}");
+    println!("Debug: {shirt_color_purple:?}");
 
-    //let shirt_err_color: anyhow::Error = ShirtColor::new_check(Color::Purple).unwrap_err().into();
-    //println!("{shirt_err_color:?}");
+    let shirt_err_color: anyhow::Error = ShirtColor::new_check(Color::Purple).unwrap_err().into();
+    println!("Debug: {shirt_err_color:?}");
+    println!("Display: {shirt_err_color}");
 
     let shirt_ok_color = ShirtColor::new_check(Color::Red);
-    println!("{shirt_ok_color:?}");
+    println!("Debug: {shirt_ok_color:?}");
+    //println!("{shirt_ok_color}");
 
     let shoes_color = ShoesColor::new(Color::Red);
     let pants_color = PantsColor::new(Color::Blue);
