@@ -3,8 +3,9 @@ use serde::{Deserialize, Serialize};
 use std::str::FromStr;
 use derive_more::From;
 use rand::prelude::*;
+use rocket::{UriDisplayPath, UriDisplayQuery};
 
-#[derive(Debug, Clone, Deserialize, Serialize, From)]
+#[derive(Debug, Clone, Deserialize, Serialize, From, UriDisplayQuery, UriDisplayPath)]
 pub struct ShortCode(String);
 
 impl ShortCode {
