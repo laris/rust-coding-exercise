@@ -8,9 +8,9 @@ use clipstash::web::PageError::Render;
 #[derive(StructOpt, Debug)]
 #[structopt(name = "httpd")]
 struct Opt {
-    #[structopt(default_value = "sqlite::data.db")]
+    #[structopt(default_value = "sqlite:data.db")]
     connection_string: String,
-    #[structopt(short, long, parse(from_os_str), default_value="template/")]
+    #[structopt(short, long, parse(from_os_str), default_value="templates/")]
     template_directory: PathBuf,
 }
 

@@ -8,6 +8,7 @@ use rocket::http::{Cookie, CookieJar, Status};
 use rocket::response::content::RawHtml;
 use rocket::response::{status, Redirect};
 use rocket::{uri, State};
+use rocket::http::uri::fmt::UriQueryArgument::Raw;
 
 #[rocket::get("/")]
 fn home(renderer: &State<Renderer<'_>>) -> RawHtml<String> {
@@ -15,8 +16,36 @@ fn home(renderer: &State<Renderer<'_>>) -> RawHtml<String> {
     RawHtml(renderer.render(context, &[]))
 }
 
+#[rocket::get("/clip/<shortcode>")]
+pub async fn get_clip(
+    shortcode: ShortCode,
+    database: &State<AppDatabase>,
+    renderer: &State<Renderer<'_>>,
+) -> Result<status::Custom<RawHtml<String>>, PageError> {
+    fn render_with_status<T: ctx::PageContext + serde::Serialize + std::fmt::Debug>(
+        status: Status,
+        context: T,
+        renderer: &Renderer
+        ) -> Result<status::Custom<RawHtml<String>>, PageError> {
+        Ok(status::Custom(status, RawHtml(renderer.render(context, &[]))))
+    }
+    match action::get_clip(shortcode.clone().into(), database.get_pool()).await {
+        Ok(clip) => {
+            let context = ctx::ViewClip::new(clip);
+            render_with_status(Status::Ok, context, renderer)
+        },
+        Err(e) => match e {
+            ServiceError::PermissionError(_) => {
+                let context = ctx::PasswordRequired::new(shortcode);
+                render_with_status(Status::Unauthorized, context, renderer)
+            },
+            ServiceError::NotFound => Err(PageError::NotFound("Clip not found".to_string())),
+            _ => Err(PageError::Internal("server error".to_owned())),
+        }
+    }
+}
 pub fn routes() -> Vec<rocket::Route> {
-    rocket::routes![home]
+    rocket::routes![home, get_clip]
 }
 
 pub mod catcher {

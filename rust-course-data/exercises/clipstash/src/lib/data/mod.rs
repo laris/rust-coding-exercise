@@ -34,6 +34,9 @@ impl Database<Sqlite> {
             }
         }
     }
+    pub fn get_pool(&self) -> &DatabasePool {
+        &self.0
+    }
 }
 
 #[derive(Clone, Debug, From, Display, Deserialize, Serialize)]
