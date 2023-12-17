@@ -10,7 +10,7 @@ pub struct ShortCode(String);
 impl ShortCode {
     pub fn new() -> Self {
         let allowed_chars = [
-            'a', 'b', 'c', 'd', '1', '2', '3', '4'
+            'a', 'b', 'c', 'd', 'e', '1', '2', '3', '4', '5',
         ];
         let mut rng = thread_rng();
         let mut shortcode = String::with_capacity(10);
