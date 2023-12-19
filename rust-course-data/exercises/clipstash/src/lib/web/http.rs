@@ -1,7 +1,7 @@
 use crate::data::AppDatabase;
 use crate::service;
 use crate::service::{action, ask};
-use crate::web::{ctx, form, renderer::Renderer, PageError, PASSWORD_COOKIE};
+use crate::web::{ctx, form, renderer::Renderer, PageError, PASSWORD_COOKIE, hitcounter};
 use crate::{ServiceError, ShortCode};
 use rocket::form::{Contextual, Form};
 use rocket::http::{Cookie, CookieJar, Status};
@@ -10,6 +10,7 @@ use rocket::response::{status, Redirect};
 use rocket::{uri, State};
 use rocket::http::uri::fmt::UriQueryArgument::Raw;
 use crate::web::ctx::PasswordRequired;
+use crate::web::hitcounter::HitCounter;
 
 #[rocket::get("/")]
 fn home(renderer: &State<Renderer<'_>>) -> RawHtml<String> {
@@ -71,6 +72,7 @@ pub async fn new_clip(
 pub async fn get_clip(
     shortcode: ShortCode,
     database: &State<AppDatabase>,
+    hit_counter: &State<HitCounter>,
     renderer: &State<Renderer<'_>>,
 ) -> Result<status::Custom<RawHtml<String>>, PageError> {
     fn render_with_status<T: ctx::PageContext + serde::Serialize + std::fmt::Debug>(
@@ -82,6 +84,7 @@ pub async fn get_clip(
     }
     match action::get_clip(shortcode.clone().into(), database.get_pool()).await {
         Ok(clip) => {
+            hit_counter.hit(shortcode.clone(), 1);
             let context = ctx::ViewClip::new(clip);
             render_with_status(Status::Ok, context, renderer)
         },
@@ -97,10 +100,11 @@ pub async fn get_clip(
 }
 
 #[rocket::post("/clip/<shortcode>", data = "<form>")]
-pub async fn submit_new_password(
+pub async fn submit_clip_password(
     cookies: &CookieJar<'_>,
     form: Form<Contextual<'_, form::NewClip>>,
     shortcode: ShortCode,
+    hit_counter: &State<HitCounter>,
     database: &State<AppDatabase>,
     renderer: &State<Renderer<'_>>,
 ) -> Result<RawHtml<String>, PageError> {
@@ -111,6 +115,7 @@ pub async fn submit_new_password(
         };
         match action::get_clip(req, database.get_pool()).await {
             Ok(clip) => {
+                hit_counter.hit(shortcode.clone(), 1);
                 let context = ctx::ViewClip::new(clip);
                 cookies.add(Cookie::new(
                     PASSWORD_COOKIE,
@@ -140,6 +145,7 @@ pub async fn submit_new_password(
 pub async fn get_raw_clip(
     cookies: &CookieJar<'_>,
     shortcode: &str,
+    hit_counter: &State<HitCounter>,
     database: &State<AppDatabase>
 ) -> Result<status::Custom<String>, Status> {
     use crate::domain::clip::field::Password;
@@ -154,6 +160,7 @@ pub async fn get_raw_clip(
     };
     match action::get_clip(req, database.get_pool()).await {
         Ok(clip) => {
+            hit_counter.hit(shortcode.into(), 1);
             Ok(status::Custom(Status::Ok, clip.content.into_inner()))
         },
         Err(e) => match e {
@@ -165,7 +172,7 @@ pub async fn get_raw_clip(
 }
 
 pub fn routes() -> Vec<rocket::Route> {
-    rocket::routes![home, get_clip, new_clip, submit_new_password, get_raw_clip]
+    rocket::routes![home, get_clip, new_clip, submit_clip_password, get_raw_clip]
 }
 
 pub mod catcher {
