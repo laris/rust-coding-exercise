@@ -1,7 +1,7 @@
 use crate::data::AppDatabase;
 use crate::service;
 use crate::service::action;
-use crate::web::{ctx, form, renderer::Renderer, PageError};
+use crate::web::{ctx, form, renderer::Renderer, PageError, PASSWORD_COOKIE};
 use crate::{ServiceError, ShortCode};
 use rocket::form::{Contextual, Form};
 use rocket::http::{Cookie, CookieJar, Status};
@@ -92,6 +92,46 @@ pub async fn get_clip(
             ServiceError::NotFound => Err(PageError::NotFound("Clip not found".to_string())),
             _ => Err(PageError::Internal("server error".to_owned())),
         }
+    }
+}
+
+#[rocket::post("/clip/<shortcode>", data = "<form>")]
+pub async fn submit_new_password(
+    cookies: &CookieJar<'_>,
+    form: Form<Contextual<'_, form::NewClip>>,
+    shortcode: ShortCode,
+    database: &State<AppDatabase>,
+    renderer: &State<Renderer<'_>>,
+) -> Result<RawHtml<String>, PageError> {
+    if let Some(form) = &form.value {
+        let req = service::ask::GetClip {
+            shortcode: shortcode.clone(),
+            password: form.password.clone(),
+        };
+        match action::get_clip(req, database.get_pool()).await {
+            Ok(clip) => {
+                let context = ctx::ViewClip::new(clip);
+                cookies.add(Cookie::new(
+                    PASSWORD_COOKIE,
+                    form.password.clone().into_inner().unwrap_or_default()
+                ));
+                Ok(RawHtml(renderer.render(context, &[])))
+            },
+            Err(e) => match e {
+                ServiceError::PermissionError(e) => {
+                    let context = ctx::PasswordRequired::new(shortcode);
+                    Ok(RawHtml(renderer.render(context, &[e.as_str()])))
+                },
+                ServiceError::NotFound => Err(PageError::NotFound("Clip not found".to_owned())),
+                _ => Err(PageError::Internal("server error".to_owned())),
+            }
+        }
+    } else {
+        let context = ctx::PasswordRequired::new(shortcode);
+        Ok(RawHtml(renderer.render(
+            context,
+            &["A password is required to view this clip"],
+        )))
     }
 }
 pub fn routes() -> Vec<rocket::Route> {
