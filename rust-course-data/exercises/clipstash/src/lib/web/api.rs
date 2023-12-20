@@ -168,7 +168,7 @@ pub async fn update_clip(
 }
 
 pub fn routes() -> Vec<rocket::Route> {
-    rocket::routes![get_clip, new_clip, update_clip, new_api_key]
+    rocket::routes!(get_clip, new_clip, update_clip, new_api_key)
 }
 
 
