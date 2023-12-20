@@ -79,7 +79,7 @@ impl HitCounter {
                 },
                 Err(e) => match e {
                     TryRecvError::Empty => {
-                        std::thread::sleep(Duration::from_secs((5)));
+                        std::thread::sleep(Duration::from_secs(5));
                         if let Err(e) = tx_clone.send(HitCountMsg::Commit) {
                             eprintln!("error send commit msg to hits change")
                         }
