@@ -49,7 +49,7 @@ struct Opt {
 
 fn get_clip(addr: &str, ask_svc: GetClip, api_key: ApiKey) -> Result<Clip, Box<dyn Error>> {
     let client = reqwest::blocking::Client::builder().build()?;
-    let addr = format!("{}/api/clip{}", addr, ask_svc.shortcode.into_inner());
+    let addr = format!("{}/api/clip/{}", addr, ask_svc.shortcode.into_inner());
     let mut request = client.get(addr);
     request = match ask_svc.password.into_inner() {
         Some(password) => request.header(reqwest::header::COOKIE,
@@ -119,5 +119,8 @@ fn run(opt: Opt) -> Result<(), Box<dyn Error>> {
 }
 fn main() {
     let opt = Opt::from_args();
+    if let Err(e) = run(opt) {
+        eprintln!("An error occrred: {e}");
+    }
 
 }
