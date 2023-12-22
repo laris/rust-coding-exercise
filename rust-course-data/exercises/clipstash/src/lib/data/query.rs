@@ -1,5 +1,5 @@
-use rocket::http::hyper::body::HttpBody;
-use super::model;
+//use rocket::http::hyper::body::HttpBody;
+use super::{/*Database, */model};
 use crate::data::{DataError, DatabasePool};
 use crate::ShortCode;
 use crate::web::api::ApiKey;
@@ -131,4 +131,54 @@ pub async fn api_key_is_valid(api_key: ApiKey, pool: &DatabasePool) -> Result<bo
             count > 0
         })?,
     )
+}
+
+pub async fn delete_expired(pool: &DatabasePool) -> Result<u64> {
+    Ok(
+        sqlx::query!(
+            r#"DELETE FROM clips WHERE strftime('%s', 'now') > expires"#)
+            .execute(pool)
+            .await?
+            .rows_affected()
+    )
+}
+
+#[cfg(test)]
+pub mod test {
+    use crate::data::test::*;
+    use crate::data::*;
+    use crate::test::async_runtime;
+
+    fn model_get_clip(shortcode: &str) -> model::GetClip {
+        model::GetClip {
+            shortcode: shortcode.into()
+        }
+    }
+
+    fn model_new_clip(shortcode: &str) -> model::NewClip {
+        use chrono::Utc;
+        model::NewClip {
+            clip_id: DbId::new().into(),
+            content: format!("content for clip '{shortcode}"),
+            title: None,
+            shortcode: shortcode.into(),
+            posted: Utc::now().timestamp(),
+            expires: None,
+            password: None,
+        }
+    }
+
+    fn clip_new_and_get() {
+        let rt = async_runtime();
+        let db = new_db(rt.handle());
+        let pool = db.get_pool();
+
+        let clip = rt.block_on(async move {
+            super::new_clip(model_new_clip("1"), &pool.clone()).await
+        });
+        assert!(clip.is_ok());
+        let clip = clip.unwrap();
+        assert!(clip.shortcode == "1");
+        assert!(clip.content == format!("content for clip '1'"));
+    }
 }

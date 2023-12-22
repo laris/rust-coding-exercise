@@ -10,8 +10,8 @@ use rocket::Responder;
 use rocket::State;
 use serde::Serialize;
 use std::str::FromStr;
-use base64::decode;
-use crate::domain::clip::field::Password;
+//use base64::decode;
+//use crate::domain::clip::field::Password;
 
 pub const API_KEY_HEADER: &str = "x-api-key";
 

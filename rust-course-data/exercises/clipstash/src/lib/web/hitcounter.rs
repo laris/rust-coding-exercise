@@ -2,7 +2,7 @@ use crate::data::DatabasePool;
 use crate::domain::clip::field::ShortCode;
 use crate::service::{self, ServiceError};
 use crossbeam_channel::TryRecvError;
-use crossbeam_channel::{unbounded, Receiver, Sender};
+use crossbeam_channel::{unbounded, /*Receiver, */Sender};
 use parking_lot::Mutex;
 use std::collections::HashMap;
 use std::sync::{Arc};
@@ -30,7 +30,7 @@ pub struct HitCounter {
 
 impl HitCounter {
     fn commit_hits(
-        msg: HitCountMsg,
+        _msg: HitCountMsg,
         hits: HitStore,
         handle: Handle,
         pool: DatabasePool) -> Result<(), HitCountError>
@@ -81,7 +81,7 @@ impl HitCounter {
                     TryRecvError::Empty => {
                         std::thread::sleep(Duration::from_secs(5));
                         if let Err(e) = tx_clone.send(HitCountMsg::Commit) {
-                            eprintln!("error send commit msg to hits change")
+                            eprintln!("error send commit msg to hits change: {e}")
                         }
                     },
                     _ => break,

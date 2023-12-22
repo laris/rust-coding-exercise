@@ -14,7 +14,8 @@ impl Time {
         self.0.timestamp()
     }
     pub fn from_naive_utc(datetime: NaiveDateTime) -> Self {
-        Time(DateTime::from_utc(datetime, Utc))
+        //Time(DateTime::from_utc(datetime, Utc))
+        Time(DateTime::from_naive_utc_and_offset(datetime, Utc))
     }
 }
 

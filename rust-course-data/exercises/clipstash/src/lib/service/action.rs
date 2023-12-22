@@ -1,9 +1,9 @@
-use crate::data::{query, DatabasePool, Transaction, Database};
+use crate::data::{query, DatabasePool, Transaction/*, Database*/};
 use crate::service::ask;
 use crate::{Clip, ServiceError, ShortCode};
 use crate::web::api::ApiKey;
 use std::convert::TryInto;
-use rocket::Data;
+//use rocket::Data;
 
 pub async fn begin_transaction(pool: &DatabasePool) -> Result<Transaction<'_>, ServiceError> {
     Ok(pool.begin().await?)
@@ -54,4 +54,8 @@ pub async fn revoke_api_key(api_key: ApiKey, pool: &DatabasePool)
 pub async fn api_key_is_valid(api_key: ApiKey, pool: &DatabasePool)
 -> Result<bool, ServiceError> {
     Ok(query::api_key_is_valid(api_key, pool).await?)
+}
+
+pub async fn delete_expired(pool: &DatabasePool) -> Result<u64, ServiceError> {
+    Ok(query::delete_expired(pool).await?)
 }

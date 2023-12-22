@@ -5,7 +5,7 @@ use clipstash::Clip;
 use std::error::Error;
 //use std::process::Command;
 use structopt::StructOpt;
-use strum::EnumString;
+//use strum::EnumString;
 
 #[derive(StructOpt, Debug)]
 enum Command {
@@ -120,7 +120,7 @@ fn run(opt: Opt) -> Result<(), Box<dyn Error>> {
 fn main() {
     let opt = Opt::from_args();
     if let Err(e) = run(opt) {
-        eprintln!("An error occrred: {e}");
+        eprintln!("An error occurred: {e}");
     }
 
 }

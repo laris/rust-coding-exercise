@@ -1,7 +1,7 @@
 use crate::domain::clip::field;
 use crate::ShortCode;
 
-use derive_more::Constructor;
+//use derive_more::Constructor;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Deserialize, Serialize)]
